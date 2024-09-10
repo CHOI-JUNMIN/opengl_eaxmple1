@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\48ed92bdd576f6295965e830c8bc71f0\dep_stb-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\48ed92bdd576f6295965e830c8bc71f0\dep_stb-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\48ed92bdd576f6295965e830c8bc71f0\dep_stb-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\48ed92bdd576f6295965e830c8bc71f0\dep_stb-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\48ed92bdd576f6295965e830c8bc71f0\dep_stb-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\48ed92bdd576f6295965e830c8bc71f0\dep_stb-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\48ed92bdd576f6295965e830c8bc71f0\dep_stb-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\48ed92bdd576f6295965e830c8bc71f0\dep_stb-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\51f20739684e2d4aa68719b0904ac1af\dep_stb-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\b414293abe2543e4659c8b1d8da6eacf\dep_stb.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\dep_stb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AD6F1528-3D09-3F5B-B8F5-1A2D89A35683}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

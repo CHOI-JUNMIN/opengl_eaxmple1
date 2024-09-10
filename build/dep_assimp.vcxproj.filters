@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\4985f024c798c9502150453b08c38e40\dep_assimp-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\4985f024c798c9502150453b08c38e40\dep_assimp-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\4985f024c798c9502150453b08c38e40\dep_assimp-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\4985f024c798c9502150453b08c38e40\dep_assimp-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\4985f024c798c9502150453b08c38e40\dep_assimp-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\4985f024c798c9502150453b08c38e40\dep_assimp-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\4985f024c798c9502150453b08c38e40\dep_assimp-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\4985f024c798c9502150453b08c38e40\dep_assimp-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\51f20739684e2d4aa68719b0904ac1af\dep_assimp-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\b414293abe2543e4659c8b1d8da6eacf\dep_assimp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Public\opengl_eaxmple1\build\CMakeFiles\dep_assimp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AD6F1528-3D09-3F5B-B8F5-1A2D89A35683}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

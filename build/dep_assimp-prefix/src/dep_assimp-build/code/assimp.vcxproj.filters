@@ -1,0 +1,1859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\CApi\CInterfaceIOWrapper.cpp">
+      <Filter>CApi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\ZipArchiveIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\simd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\CApi\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\EmbedTexturesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\DropFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\ScaleProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\GenBoundingBoxesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Material\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\STEPParser\STEPFileReader.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\STEPParser\STEPFileEncoding.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\AMF\AMFImporter.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\AMF\AMFImporter_Geometry.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\AMF\AMFImporter_Material.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\AMF\AMFImporter_Postprocess.cpp">
+      <Filter>AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\3DS\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\3DS\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\AC\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\ASE\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\ASE\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Assbin\AssbinLoader.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\B3D\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\BVH\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Collada\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Collada\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\DXF\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\CSM\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\HMP\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Irr\IRRMeshLoader.cpp">
+      <Filter>IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Irr\IRRShared.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Irr\IRRLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\LWO\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\LWO\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\LWO\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\LWO\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\LWS\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MD2\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MD3\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MD5\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MD5\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MDC\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MDL\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MDL\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\NFF\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\NDO\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\OFF\OFFLoader.cpp">
+      <Filter>OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Obj\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Obj\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Obj\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ogre\OgreImporter.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ogre\OgreStructs.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ogre\OgreBinarySerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ogre\OgreXmlSerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ogre\OgreMaterial.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\OpenGEX\OpenGEXImporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ply\PlyLoader.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ply\PlyParser.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MS3D\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\COB\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderCustomData.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\IFC\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\IFC\IFCReaderGen1_2x3.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\IFC\IFCReaderGen2_2x3.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\IFC\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\IFC\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\IFC\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\IFC\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\IFC\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\IFC\IFCBoolean.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\IFC\IFCOpenings.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\XGL\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Q3D\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Q3BSP\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Q3BSP\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Raw\RawLoader.cpp">
+      <Filter>RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\SIB\SIBImporter.cpp">
+      <Filter>SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\SMD\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\STL\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Terragen\TerragenLoader.cpp">
+      <Filter>TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Unreal\UnrealLoader.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X\XFileImporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X\XFileParser.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter_Geometry2D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter_Geometry3D.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter_Group.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter_Light.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter_Metadata.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter_Networking.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter_Postprocess.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter_Rendering.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter_Shape.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter_Texturing.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\FIReader.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DVocabulary.cpp">
+      <Filter>X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF\glTFCommon.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF\glTFImporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF2\glTF2Importer.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\3MF\D3MFImporter.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\3MF\D3MFOpcPackage.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MMD\MMDImporter.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MMD\MMDPmxParser.cpp">
+      <Filter>MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\StepFile\StepFileImporter.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\StepFile\StepFileGen1.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\StepFile\StepFileGen2.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\StepFile\StepFileGen3.cpp">
+      <Filter>STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\3DS\3DSExporter.cpp">
+      <Filter>3DS_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Assbin\AssbinExporter.cpp">
+      <Filter>ASSBIN_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Assxml\AssxmlExporter.cpp">
+      <Filter>ASSXML_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Collada\ColladaExporter.cpp">
+      <Filter>COLLADA_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Obj\ObjExporter.cpp">
+      <Filter>OBJ_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\OpenGEX\OpenGEXExporter.cpp">
+      <Filter>OPENGEX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ply\PlyExporter.cpp">
+      <Filter>PLY_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXExporter.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXExportNode.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXExportProperty.cpp">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\STL\STLExporter.cpp">
+      <Filter>STL_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X\XFileExporter.cpp">
+      <Filter>X_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DExporter.cpp">
+      <Filter>X3D_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF\glTFExporter.cpp">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF2\glTF2Exporter.cpp">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\3MF\D3MFExporter.cpp">
+      <Filter>3MF_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Assjson\cencode.c">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Assjson\json_exporter.cpp">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Assjson\mesh_splitter.cpp">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Step\StepExporter.cpp">
+      <Filter>STEP_EXPORTER</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\unzip\ioapi.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\unzip\unzip.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\clipper\clipper.cpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\openddlparser\code\Value.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\CApi\CInterfaceIOWrapper.h">
+      <Filter>CApi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\PolyTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\simd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Common\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\EmbedTexturesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\DropFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\ScaleProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\PostProcessing\GenBoundingBoxesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Material\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\STEPParser\STEPFileReader.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\STEPParser\STEPFileEncoding.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\AMF\AMFImporter.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\AMF\AMFImporter_Macro.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\AMF\AMFImporter_Node.hpp">
+      <Filter>AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\3DS\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\3DS\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\AC\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\ASE\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\ASE\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Assbin\AssbinLoader.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\B3D\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\BVH\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Collada\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Collada\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Collada\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\DXF\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\DXF\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\CSM\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\HMP\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\HMP\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\HMP\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Irr\IRRMeshLoader.h">
+      <Filter>IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Irr\IRRShared.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Irr\IRRLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\LWO\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\LWO\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\LWO\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\LWS\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MD2\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MD2\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MD2\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MD3\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MD3\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MD5\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MD5\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MDC\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MDC\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MDC\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MDL\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MDL\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MDL\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\NFF\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\NDO\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\OFF\OFFLoader.h">
+      <Filter>OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Obj\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Obj\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Obj\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Obj\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Obj\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ogre\OgreImporter.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ogre\OgreStructs.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ogre\OgreParsingUtils.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ogre\OgreBinarySerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ogre\OgreXmlSerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\OpenGEX\OpenGEXImporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\OpenGEX\OpenGEXStructs.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ply\PlyLoader.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ply\PlyParser.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MS3D\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\COB\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\COB\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Blender\BlenderCustomData.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\IFC\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\IFC\IFCReaderGen_2x3.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\IFC\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\XGL\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXMeshGeometry.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXCommon.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Q3D\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Q3BSP\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Q3BSP\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Q3BSP\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Raw\RawLoader.h">
+      <Filter>RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\SIB\SIBImporter.h">
+      <Filter>SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\SMD\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\STL\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Terragen\TerragenLoader.h">
+      <Filter>TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Unreal\UnrealLoader.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X\XFileHelper.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X\XFileImporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X\XFileParser.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter_Macro.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DImporter_Node.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\FIReader.hpp">
+      <Filter>X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF\glTFCommon.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF\glTFAsset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF\glTFAsset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF\glTFAssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF\glTFAssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF\glTFImporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF2\glTF2Asset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF2\glTF2Asset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF2\glTF2AssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF2\glTF2AssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF2\glTF2Importer.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\3MF\D3MFImporter.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\3MF\D3MFOpcPackage.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\3MF\3MFXmlTags.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MMD\MMDCpp14.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MMD\MMDImporter.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MMD\MMDPmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MMD\MMDPmxParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\MMD\MMDVmdParser.h">
+      <Filter>MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Step\STEPFile.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\StepFile\StepFileImporter.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Importer\StepFile\StepReaderGen.h">
+      <Filter>STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\3DS\3DSExporter.h">
+      <Filter>3DS_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Assbin\AssbinExporter.h">
+      <Filter>ASSBIN_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Assxml\AssxmlExporter.h">
+      <Filter>ASSXML_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Collada\ColladaExporter.h">
+      <Filter>COLLADA_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Obj\ObjExporter.h">
+      <Filter>OBJ_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\OpenGEX\OpenGEXExporter.h">
+      <Filter>OPENGEX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Ply\PlyExporter.h">
+      <Filter>PLY_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXExporter.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXExportNode.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\FBX\FBXExportProperty.h">
+      <Filter>FBX_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\STL\STLExporter.h">
+      <Filter>STL_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X\XFileExporter.h">
+      <Filter>X_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\X3D\X3DExporter.hpp">
+      <Filter>X3D_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF\glTFExporter.h">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\glTF2\glTF2Exporter.h">
+      <Filter>GLTF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\3MF\D3MFExporter.h">
+      <Filter>3MF_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Assjson\cencode.h">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Assjson\mesh_splitter.h">
+      <Filter>ASSJSON_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\Step\StepExporter.h">
+      <Filter>STEP_EXPORTER</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\unzip\crypt.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\unzip\ioapi.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\unzip\unzip.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\clipper\clipper.hpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\aabb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp-build\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\pbrmaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\IOStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\DefaultIOStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\DefaultIOSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\ZipArchiveIOSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\SceneCombiner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\fast_atof.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\qnan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\BaseImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\MemoryIOWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\ParsingUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\StreamReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\StreamWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\StringComparison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\SGSpatialSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\GenericProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\SpatialSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\SmoothingGroups.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\SmoothingGroups.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\StandardShapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\RemoveComments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Subdivision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\LineSplitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\TinyFormatter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Profiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\LogAux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Bitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\XMLTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\IOStreamBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\CreateAnimMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\MathFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Exceptional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\ByteSwapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp\code\res\assimp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3D">
+      <UniqueIdentifier>{06FC0791-7F51-3E57-9310-A4B088DE0C6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{DC10C098-A364-3037-ACDF-A51649C192A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS_EXPORTER">
+      <UniqueIdentifier>{DD5EF84F-B633-36C5-BF3C-D36D1BA62D2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF">
+      <UniqueIdentifier>{BE8EBE2B-71E0-3A26-8210-16E8AF9DEA2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF_EXPORTER">
+      <UniqueIdentifier>{721C3BA9-A374-3FE4-9B3D-FFF21F252F2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{26ED1515-1DB2-3602-B9AC-E9A0C5CF9333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AMF">
+      <UniqueIdentifier>{4D7D4AC1-092A-3039-9955-5FB6179175D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{819D06C4-FB46-3D9A-8877-190AE04EC2E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN">
+      <UniqueIdentifier>{E0ACACB4-58F5-399E-9ACE-DE78E35C03B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN_EXPORTER">
+      <UniqueIdentifier>{F54335C0-5206-32AA-8EA6-A2CFD54EC725}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSJSON_EXPORTER">
+      <UniqueIdentifier>{34DAB3A4-B863-32A4-94E2-ED7F0444D320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSXML_EXPORTER">
+      <UniqueIdentifier>{FBAF1938-D20E-366D-A84E-7D0F10C3B5FE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{C7FEB06E-A73C-3193-8BD6-7C4F9BC54965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{934CB15F-4889-3E83-AA15-2B22E3ED8AA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{A0FD3267-7A2E-30FF-95A7-2FF30CD5834E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CApi">
+      <UniqueIdentifier>{51FD0F4C-AB22-31F5-9650-A1A22CC03B9C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{428343C0-7C78-3795-9C8C-865F168D686D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{76400701-52D7-3B13-A67E-ED09402104CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA_EXPORTER">
+      <UniqueIdentifier>{2FCABBAE-97D3-35D0-A56A-9282ED03ADAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{C05239EC-CEF7-3D03-BB17-D19D725732F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{01E48A15-DF43-3641-82C9-ADADB7B6F257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{32D17E44-C893-3EF8-9692-138CCFDE1809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{79B59C61-57CB-3566-8436-0811ABD29C07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Clipper">
+      <UniqueIdentifier>{0F4DB2CA-5EB0-3D82-BCCF-6249118AECA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Poly2Tri">
+      <UniqueIdentifier>{A054E3BF-D92F-370C-9E28-3DBB81FD2890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\open3dgc">
+      <UniqueIdentifier>{D0F70FBC-DD48-3EBC-8477-A9EF9A2DAA09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\openddl_parser">
+      <UniqueIdentifier>{5476D059-209B-385D-BBF9-2EE73BE2B530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\unzip">
+      <UniqueIdentifier>{744F7162-4E4D-385C-8596-C025973CCF8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{E8DE3A59-11D0-30DB-BA8E-945B14362542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{31F20A1D-60DF-3770-ACC7-C5A1569F3BDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{06CD20E1-3C7F-312A-B238-378B062AD0C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX_EXPORTER">
+      <UniqueIdentifier>{F2FE09FC-9674-3793-A367-190EFDA24004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF">
+      <UniqueIdentifier>{24520C26-2685-3CDE-80B7-C374D7817190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF_EXPORTER">
+      <UniqueIdentifier>{2FC74821-DD98-311D-B164-CBF33F207364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{037B844B-6B47-3D73-A920-17933D0B8FDD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8A0A87B9-C4AB-339B-80D2-4ECD7FD55BB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{A59445F6-0C0E-399C-B8FD-F354FFE60303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{5FD7B92D-C206-35FD-BD64-097258DE3267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRRMESH">
+      <UniqueIdentifier>{2496D7EC-E411-3DD1-A26A-35A79F53ECEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{60C15381-A6A4-37D8-96D7-A167AF80F46E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{928FE156-4AFE-31B5-B4EE-F6AADF7B8734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{F558EC30-15F5-3F6A-8BE7-89FFACC4E8BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{F79C91E2-D0A0-361A-B5CD-94661A554A67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{854C17CC-BB69-36E3-8A18-24698FD1FED7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{6738BE8B-A72B-345F-8E49-851043BA7E31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{DE34C219-DB74-3B10-A5DF-FBA1FC03C820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{762116D4-C04E-3290-B1C9-CC39A1100961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{2CD55866-C59F-3738-B128-026928B9DDAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MMD">
+      <UniqueIdentifier>{3B209126-23F0-3A42-914B-795E6C543714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{A402EEE2-1558-3E7F-AAED-AD5094856C28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{3ACA363A-6479-3C1F-BA3B-60E9909D4A8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{909AE10B-390C-361D-B101-E8ECDFB25D60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{713A64D9-481A-34C6-8F9B-1E776F328469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{DDBC5EE9-DCA4-3F8A-BA07-A53F522F4687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ_EXPORTER">
+      <UniqueIdentifier>{C05C8220-0062-33DA-A4E2-97DD87BF01FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFF">
+      <UniqueIdentifier>{40CFAC7B-59F5-32BC-A04E-7B741C2586B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGRE">
+      <UniqueIdentifier>{9EB3B4AC-74BF-38EA-B5EC-8AEE2FAD3824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX">
+      <UniqueIdentifier>{518652D3-ECE7-3EA0-98D4-B9A4B78ADCE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX_EXPORTER">
+      <UniqueIdentifier>{08F3C508-3165-389C-8D98-F535D41A3B55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY">
+      <UniqueIdentifier>{3576775F-0F25-32F0-B5E2-04828619AA7C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY_EXPORTER">
+      <UniqueIdentifier>{E70FD24E-E6D8-3043-BDCF-FD6139AEFE21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{67A73C60-D8E0-395F-B108-9176A2E7DE42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{AA8C5D5E-1C3E-310F-9C33-784B04E61A85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{02B4CB1E-6822-3A3B-8C50-F343B75297E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW">
+      <UniqueIdentifier>{12E62351-052F-3630-8CB9-B045FD169034}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIB">
+      <UniqueIdentifier>{CDB32D0E-4207-3197-86C2-D258BFF221C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{9AFE350E-6A40-321E-BC87-A6C2652315BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEP">
+      <UniqueIdentifier>{10D4C89C-8032-31F9-9B91-BF93E900CA38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEPParser">
+      <UniqueIdentifier>{EEFC12FA-C484-35C2-87D5-533DC4EE6BCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEP_EXPORTER">
+      <UniqueIdentifier>{641A27AA-C7CC-3909-AF57-606A2632E567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{A4B4AAE1-6792-321C-8F40-F306B7B9DB56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL_EXPORTER">
+      <UniqueIdentifier>{3EFBD050-27DB-31D2-8F2A-0833C1CA7D84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{96E2A901-4C68-3CAD-BD6F-604395336947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERRAGEN">
+      <UniqueIdentifier>{FD1ACE8F-0AF8-3247-8945-B25F8A488345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{E21F3066-BEB9-3264-9F01-3B95CB847D4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D">
+      <UniqueIdentifier>{9890D402-3F13-385E-9AD0-065F9B013CE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X3D_EXPORTER">
+      <UniqueIdentifier>{6DE1EC32-6FE4-3EE6-8F48-7C63C1F380CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{43FD4D9B-B0FB-3170-A81E-BAA3CD45EAB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_EXPORTER">
+      <UniqueIdentifier>{642E291B-D388-3B94-BEF2-98E2EBB2CEDB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{1AFE2747-D333-3579-BFEE-80AA8AA4EAD7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

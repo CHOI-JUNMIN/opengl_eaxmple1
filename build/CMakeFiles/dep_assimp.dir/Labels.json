@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/dep_assimp"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/b414293abe2543e4659c8b1d8da6eacf/dep_assimp.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/51f20739684e2d4aa68719b0904ac1af/dep_assimp-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/4985f024c798c9502150453b08c38e40/dep_assimp-build.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/4985f024c798c9502150453b08c38e40/dep_assimp-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/4985f024c798c9502150453b08c38e40/dep_assimp-download.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/4985f024c798c9502150453b08c38e40/dep_assimp-install.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/4985f024c798c9502150453b08c38e40/dep_assimp-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/4985f024c798c9502150453b08c38e40/dep_assimp-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/4985f024c798c9502150453b08c38e40/dep_assimp-test.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/4985f024c798c9502150453b08c38e40/dep_assimp-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_assimp"
+		],
+		"name" : "dep_assimp"
+	}
+}

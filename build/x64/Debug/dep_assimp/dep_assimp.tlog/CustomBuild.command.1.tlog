@@ -1,0 +1,156 @@
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\4985F024C798C9502150453B08C38E40\DEP_ASSIMP-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/tmp/dep_assimp-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-stamp/Debug/dep_assimp-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\4985F024C798C9502150453B08C38E40\DEP_ASSIMP-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/tmp/dep_assimp-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-stamp/Debug/dep_assimp-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\4985F024C798C9502150453B08C38E40\DEP_ASSIMP-UPDATE.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-stamp/Debug/dep_assimp-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\4985F024C798C9502150453B08C38E40\DEP_ASSIMP-PATCH.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-stamp/Debug/dep_assimp-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\4985F024C798C9502150453B08C38E40\DEP_ASSIMP-CONFIGURE.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_PREFIX=C:/Users/Public/opengl_eaxmple1/build/install -DBUILD_SHARED_LIBS=OFF -DASSIMP_BUILD_ASSIMP_TOOLS=OFF -DASSIMP_BUILD_TESTS=OFF -DASSIMP_INJECT_DEBUG_POSTFIX=OFF -DASSIMP_BUILD_ZLIB=ON "-GVisual Studio 17 2022" "-DCMAKE_GENERATOR_INSTANCE:INTERNAL=C:/Program Files/Microsoft Visual Studio/2022/Community" -S C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp -B C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-stamp/Debug/dep_assimp-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\4985F024C798C9502150453B08C38E40\DEP_ASSIMP-BUILD.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-stamp/Debug/dep_assimp-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\4985F024C798C9502150453B08C38E40\DEP_ASSIMP-INSTALL.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug --target install
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-stamp/Debug/dep_assimp-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\4985F024C798C9502150453B08C38E40\DEP_ASSIMP-TEST.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_assimp-prefix\src\dep_assimp-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-stamp/Debug/dep_assimp-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\51F20739684E2D4AA68719B0904AC1AF\DEP_ASSIMP-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/Debug/dep_assimp-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-stamp/Debug/dep_assimp-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\B414293ABE2543E4659C8B1D8DA6EACF\DEP_ASSIMP.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/opengl_eaxmple1 -BC:/Users/Public/opengl_eaxmple1/build --check-stamp-file C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

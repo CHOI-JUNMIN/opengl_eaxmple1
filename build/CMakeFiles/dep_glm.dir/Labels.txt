@@ -1,0 +1,14 @@
+# Target labels
+ dep_glm
+# Source files and their labels
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/dep_glm
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/b414293abe2543e4659c8b1d8da6eacf/dep_glm.rule
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/51f20739684e2d4aa68719b0904ac1af/dep_glm-complete.rule
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/787101198d73fdb16eac8be7b4c8e704/dep_glm-build.rule
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/787101198d73fdb16eac8be7b4c8e704/dep_glm-configure.rule
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/787101198d73fdb16eac8be7b4c8e704/dep_glm-download.rule
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/787101198d73fdb16eac8be7b4c8e704/dep_glm-install.rule
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/787101198d73fdb16eac8be7b4c8e704/dep_glm-mkdir.rule
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/787101198d73fdb16eac8be7b4c8e704/dep_glm-patch.rule
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/787101198d73fdb16eac8be7b4c8e704/dep_glm-test.rule
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/787101198d73fdb16eac8be7b4c8e704/dep_glm-update.rule

@@ -1,0 +1,10 @@
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/opengl_example1.dir
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/dep_spdlog.dir
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/dep_glfw.dir
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/dep_glad.dir
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/dep_stb.dir
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/dep_glm.dir
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/imgui.dir
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/dep_assimp.dir
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/ZERO_CHECK.dir

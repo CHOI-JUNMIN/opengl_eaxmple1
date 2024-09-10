@@ -1,0 +1,156 @@
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\787101198D73FDB16EAC8BE7B4C8E704\DEP_GLM-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/Public/opengl_eaxmple1/build/dep_glm-prefix/tmp/dep_glm-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_glm-prefix/src/dep_glm-stamp/Debug/dep_glm-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\787101198D73FDB16EAC8BE7B4C8E704\DEP_GLM-DOWNLOAD.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_glm-prefix\src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/Public/opengl_eaxmple1/build/dep_glm-prefix/tmp/dep_glm-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_glm-prefix/src/dep_glm-stamp/Debug/dep_glm-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\787101198D73FDB16EAC8BE7B4C8E704\DEP_GLM-UPDATE.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_glm-prefix\src\dep_glm
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_glm-prefix/src/dep_glm-stamp/Debug/dep_glm-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\787101198D73FDB16EAC8BE7B4C8E704\DEP_GLM-PATCH.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_glm-prefix\src\dep_glm
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_glm-prefix/src/dep_glm-stamp/Debug/dep_glm-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\787101198D73FDB16EAC8BE7B4C8E704\DEP_GLM-CONFIGURE.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_glm-prefix\src\dep_glm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_glm-prefix/src/dep_glm-stamp/Debug/dep_glm-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\787101198D73FDB16EAC8BE7B4C8E704\DEP_GLM-BUILD.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_glm-prefix\src\dep_glm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_glm-prefix/src/dep_glm-stamp/Debug/dep_glm-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\787101198D73FDB16EAC8BE7B4C8E704\DEP_GLM-INSTALL.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_glm-prefix\src\dep_glm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/Public/opengl_eaxmple1/build/dep_glm-prefix/src/dep_glm/glm C:/Users/Public/opengl_eaxmple1/build/install/include/glm
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_glm-prefix/src/dep_glm-stamp/Debug/dep_glm-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\787101198D73FDB16EAC8BE7B4C8E704\DEP_GLM-TEST.RULE
+setlocal
+cd C:\Users\Public\opengl_eaxmple1\build\dep_glm-prefix\src\dep_glm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_glm-prefix/src/dep_glm-stamp/Debug/dep_glm-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\51F20739684E2D4AA68719B0904AC1AF\DEP_GLM-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/Debug/dep_glm-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/Public/opengl_eaxmple1/build/dep_glm-prefix/src/dep_glm-stamp/Debug/dep_glm-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\BUILD\CMAKEFILES\B414293ABE2543E4659C8B1D8DA6EACF\DEP_GLM.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\PUBLIC\OPENGL_EAXMPLE1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Public/opengl_eaxmple1 -BC:/Users/Public/opengl_eaxmple1/build --check-stamp-file C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

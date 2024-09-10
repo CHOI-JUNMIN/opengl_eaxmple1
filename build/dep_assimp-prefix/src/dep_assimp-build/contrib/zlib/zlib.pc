@@ -1,0 +1,13 @@
+prefix=C:/Users/Public/opengl_eaxmple1/build/install
+exec_prefix=C:/Users/Public/opengl_eaxmple1/build/install
+libdir=
+sharedlibdir=
+includedir=
+
+Name: zlib
+Description: zlib compression library
+Version: 
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

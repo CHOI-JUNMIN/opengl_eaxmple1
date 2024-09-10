@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/dep_glad"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/b414293abe2543e4659c8b1d8da6eacf/dep_glad.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/51f20739684e2d4aa68719b0904ac1af/dep_glad-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/60f2d28acd05f66ac08f9c6847f5e9aa/dep_glad-build.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/60f2d28acd05f66ac08f9c6847f5e9aa/dep_glad-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/60f2d28acd05f66ac08f9c6847f5e9aa/dep_glad-download.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/60f2d28acd05f66ac08f9c6847f5e9aa/dep_glad-install.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/60f2d28acd05f66ac08f9c6847f5e9aa/dep_glad-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/60f2d28acd05f66ac08f9c6847f5e9aa/dep_glad-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/60f2d28acd05f66ac08f9c6847f5e9aa/dep_glad-test.rule"
+		},
+		{
+			"file" : "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/60f2d28acd05f66ac08f9c6847f5e9aa/dep_glad-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dep_glad"
+		],
+		"name" : "dep_glad"
+	}
+}
