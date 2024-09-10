@@ -23,6 +23,8 @@ public:
     bool IsChildOf(const std::string &nodeName, const std::string &parentNodeName) const;
     void DrawNode(const aiNode *node, glm::mat4 parentTransform, const Program *program) const;
 
+    void SetPosition(float newPos);
+
 private:
     Model()
     {
@@ -35,6 +37,8 @@ private:
 
     std::vector<MeshPtr> m_meshes;   //메쉬저장벡터
     std::vector<MaterialPtr> m_materials; //재질저장 벡터
+
+    float Pos = 0.0f;
 
     const aiScene *m_scene;
     //std::map<std::string, MaterialPtr> m_materialMap; // 재질 이름을 키로 하고 재질 포인터를 값으로 하는 맵 재질을 파일에서 로드할때 이름으로 관리

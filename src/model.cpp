@@ -203,6 +203,11 @@ void Model::Draw(const Program* program) const  //모델 그리기
     }
 }
 */
+void Model::SetPosition(float newPos)
+{
+    Pos = newPos;
+}
+
 void Model::Draw(const Program *program) const
 {
     for (const auto &mesh : m_meshes)
@@ -212,6 +217,8 @@ void Model::Draw(const Program *program) const
         auto material = mesh->GetMaterial();
         // 셰이더 프로그램에 재질 정보 전달
         glm::vec3 lightPos(0.0f, 1.0f, 1.0f);
+
+        glm::mat NewModelMatrix = glm::translate(modelMatrix, glm::vec3(Pos, 0.0f, 0.0f));
 
         program->Use();
         program->SetUniform("materialdiffuse", material->diffuseColor);
@@ -224,7 +231,7 @@ void Model::Draw(const Program *program) const
         program->SetUniform("Lightambient", glm::vec3(0.3f, 0.3f, 0.3f));  // 주변광
         program->SetUniform("lightPosition", lightPos);
 
-        program->SetUniform("modelMatrix", modelMatrix);
+        program->SetUniform("modelMatrix", NewModelMatrix);
 
         mesh->Draw(program);
     }

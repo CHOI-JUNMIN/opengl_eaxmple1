@@ -48,7 +48,7 @@ void Context::MouseMove(double x, double y)
     auto pos = glm::vec2((float)x, (float)y);
     auto deltaPos = pos - m_prevMousePos;
 
-    const float cameraRotSpeed = 0.8f;
+    const float cameraRotSpeed = 1.2f;
     m_cameraYaw -= deltaPos.x * cameraRotSpeed;
     m_cameraPitch -= deltaPos.y * cameraRotSpeed;
 
@@ -116,6 +116,8 @@ void Context::Render()
             m_cameraPitch = 0.0f;
             m_cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
         }
+        ImGui::Separator();
+        ImGui::DragFloat("a", &a, 0.1f, -5.0f, 5.0f);
         //ImGui::Checkbox("animation", &m_animation);
     }
     ImGui::End();
@@ -136,13 +138,13 @@ void Context::Render()
     auto modelTransform = glm::mat4(1.0f);
     auto transform = projection * view * modelTransform;
 
-    glm::mat4 modelMatrix = glm::scale(glm::mat4(1.0f), glm::vec3(0.1f, 0.1f, 0.1f));
-    //glm::mat4 rotation = glm::rotate(glm::mat4(1.0f), glm::radians(90.0f), glm::vec3(-1.0f, 0.0f, 0.0f));
+    glm::mat4 modelMatrix = glm::scale(glm::mat4(1.0f), glm::vec3(0.5f, 0.5f, 0.5f));
 
     m_program->SetUniform("transform", transform);
     m_program->SetUniform("modelTransform", modelTransform);
     m_program->SetUniform("modelscale", modelMatrix);
-    //m_program->SetUniform("rotation", rotation);
+
+    m_model->SetPosition(a);
 
     m_model->Draw(m_program.get());
 }
