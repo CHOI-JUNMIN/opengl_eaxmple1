@@ -66,7 +66,9 @@ private:
     int m_height{WINDOW_HEIGHT};
 
     std::vector<float> m_gridVertices;
+    std::vector<float> m_boldGridVertices;
     GLuint m_gridVAO, m_gridVBO;
+    GLuint m_boldGridVAO, m_boldGridVBO;
 };
 
 #endif // __CONTEXT_H__
