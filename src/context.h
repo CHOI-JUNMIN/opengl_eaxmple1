@@ -55,10 +55,10 @@ private:
     // camera parameter
     bool m_cameraControl{false};
     glm::vec2 m_prevMousePos{glm::vec2(0.0f)};
-    float m_cameraPitch{0.0f};
+    float m_cameraPitch{-20.0f};
     float m_cameraYaw{0.0f};
     float a{0.0f};
-    glm::vec3 m_cameraPos{glm::vec3(0.0f, 0.0f, 3.0f)};
+    glm::vec3 m_cameraPos{glm::vec3(0.0f, 5.0f, 10.0f)};
     glm::vec3 m_cameraFront{glm::vec3(0.0f, 0.0f, -1.0f)};
     glm::vec3 m_cameraUp{glm::vec3(0.0f, 1.0f, 0.0f)};
 
@@ -67,8 +67,11 @@ private:
 
     std::vector<float> m_gridVertices;
     std::vector<float> m_boldGridVertices;
+    std::vector<float> m_gridColors;
+    std::vector<float> m_boldGridColors;
     GLuint m_gridVAO, m_gridVBO;
     GLuint m_boldGridVAO, m_boldGridVBO;
+    GLuint m_gridColorVBO, m_boldGridColorVBO;
 };
 
 #endif // __CONTEXT_H__

@@ -6,90 +6,116 @@
 void Context::CreateGrid(int gridSize, float boxLength)
 {
     m_gridVertices.clear(); // 기존 그리드 데이터를 초기화
+    m_boldGridVertices.clear(); // 굵은 그리드
+    m_gridColors.clear();       // 일반 그리드 색상
+    m_boldGridColors.clear();   // 굵은 그리드 색상
+
+    glm::vec3 boldColor(0.6f, 0.6f, 0.6f); // 굵은 그리드 색상 
+    glm::vec3 gridColor(0.9f, 0.9f, 0.9f); // 일반 그리드 색상 
+    glm::vec3 xAxisColor(0.0f, 0.0f, 1.0f); // x=0 색상 
+    glm::vec3 zAxisColor(1.0f, 0.0f, 0.0f); // z=0 색상
 
     for (int i = -gridSize; i <= gridSize; i++)
-        if (i % 5 == 0) // 5의 배수인 경우 굵은 선 그리드에 추가
-        {
-            // 굵은 선 X 방향
-            m_boldGridVertices.push_back(i * boxLength);
-            m_boldGridVertices.push_back(0.0f);
-            m_boldGridVertices.push_back(-gridSize * boxLength);
-
-            m_boldGridVertices.push_back(i * boxLength);
-            m_boldGridVertices.push_back(0.0f);
-            m_boldGridVertices.push_back(gridSize * boxLength);
-
-            // 굵은 선 Z 방향
-            m_boldGridVertices.push_back(-gridSize * boxLength);
-            m_boldGridVertices.push_back(0.0f);
-            m_boldGridVertices.push_back(i * boxLength);
-
-            m_boldGridVertices.push_back(gridSize * boxLength);
-            m_boldGridVertices.push_back(0.0f);
-            m_boldGridVertices.push_back(i * boxLength);
-        }
-        else // 일반 선 그리드에 추가
-        {
-            // 일반 그리드 X 방향
-            m_gridVertices.push_back(i * boxLength);
-            m_gridVertices.push_back(0.0f);
-            m_gridVertices.push_back(-gridSize * boxLength);
-
-            m_gridVertices.push_back(i * boxLength);
-            m_gridVertices.push_back(0.0f);
-            m_gridVertices.push_back(gridSize * boxLength);
-
-            // 일반 그리드 Z 방향
-            m_gridVertices.push_back(-gridSize * boxLength);
-            m_gridVertices.push_back(0.0f);
-            m_gridVertices.push_back(i * boxLength);
-
-            m_gridVertices.push_back(gridSize * boxLength);
-            m_gridVertices.push_back(0.0f);
-            m_gridVertices.push_back(i * boxLength);
-        }
-
-    for (int j = -gridSize; j <= gridSize; j++)
     {
-  if (j % 5 == 0) // 5의 배수인 경우 굵은 선 그리드에 추가
+        // x=0 또는 z=0 축을 굵게 처리 (별도의 굵은 그리드)
+        if (i == 0)
         {
-            // 굵은 선 X 방향
-            m_boldGridVertices.push_back(j * boxLength);
+            // x=0 (파란색, 굵은 선)
+            m_boldGridVertices.push_back(i * boxLength);
             m_boldGridVertices.push_back(0.0f);
             m_boldGridVertices.push_back(-gridSize * boxLength);
 
-            m_boldGridVertices.push_back(j * boxLength);
+            m_boldGridVertices.push_back(i * boxLength);
             m_boldGridVertices.push_back(0.0f);
             m_boldGridVertices.push_back(gridSize * boxLength);
 
-            // 굵은 선 Z 방향
+            for (int j = 0; j < 2; j++)
+            {
+                m_boldGridColors.push_back(xAxisColor.r);
+                m_boldGridColors.push_back(xAxisColor.g);
+                m_boldGridColors.push_back(xAxisColor.b);
+            }
+
+            // z=0 (빨간색, 굵은 선)
             m_boldGridVertices.push_back(-gridSize * boxLength);
             m_boldGridVertices.push_back(0.0f);
-            m_boldGridVertices.push_back(j * boxLength);
+            m_boldGridVertices.push_back(i * boxLength);
 
             m_boldGridVertices.push_back(gridSize * boxLength);
             m_boldGridVertices.push_back(0.0f);
-            m_boldGridVertices.push_back(j * boxLength);
+            m_boldGridVertices.push_back(i * boxLength);
+
+            for (int j = 0; j < 2; j++)
+            {
+                m_boldGridColors.push_back(zAxisColor.r);
+                m_boldGridColors.push_back(zAxisColor.g);
+                m_boldGridColors.push_back(zAxisColor.b);
+            }
         }
-        else // 일반 선 그리드에 추가
+        else if (i % 5 == 0) // 5의 배수는 일반 그리드로 처리하지만 색상은 다르게
         {
-            // 일반 그리드 X 방향
-            m_gridVertices.push_back(j * boxLength);
+            // 일반 그리드로 5의 배수 표시 (boldColor 사용, 굵기 동일)
+            m_gridVertices.push_back(i * boxLength);
             m_gridVertices.push_back(0.0f);
             m_gridVertices.push_back(-gridSize * boxLength);
 
-            m_gridVertices.push_back(j * boxLength);
+            m_gridVertices.push_back(i * boxLength);
             m_gridVertices.push_back(0.0f);
             m_gridVertices.push_back(gridSize * boxLength);
 
-            // 일반 그리드 Z 방향
+            for (int j = 0; j < 2; j++)
+            {
+                m_gridColors.push_back(boldColor.r); // 5의 배수 색상 (회색)
+                m_gridColors.push_back(boldColor.g);
+                m_gridColors.push_back(boldColor.b);
+            }
+
             m_gridVertices.push_back(-gridSize * boxLength);
             m_gridVertices.push_back(0.0f);
-            m_gridVertices.push_back(j * boxLength);
+            m_gridVertices.push_back(i * boxLength);
 
             m_gridVertices.push_back(gridSize * boxLength);
             m_gridVertices.push_back(0.0f);
-            m_gridVertices.push_back(j * boxLength);
+            m_gridVertices.push_back(i * boxLength);
+
+            for (int j = 0; j < 2; j++)
+            {
+                m_gridColors.push_back(boldColor.r); // 5의 배수 색상 (회색)
+                m_gridColors.push_back(boldColor.g);
+                m_gridColors.push_back(boldColor.b);
+            }
+        }
+        else // 일반 그리드
+        {
+            m_gridVertices.push_back(i * boxLength);
+            m_gridVertices.push_back(0.0f);
+            m_gridVertices.push_back(-gridSize * boxLength);
+
+            m_gridVertices.push_back(i * boxLength);
+            m_gridVertices.push_back(0.0f);
+            m_gridVertices.push_back(gridSize * boxLength);
+
+            for (int j = 0; j < 2; j++)
+            {
+                m_gridColors.push_back(gridColor.r); // 일반 그리드 색상
+                m_gridColors.push_back(gridColor.g);
+                m_gridColors.push_back(gridColor.b);
+            }
+
+            m_gridVertices.push_back(-gridSize * boxLength);
+            m_gridVertices.push_back(0.0f);
+            m_gridVertices.push_back(i * boxLength);
+
+            m_gridVertices.push_back(gridSize * boxLength);
+            m_gridVertices.push_back(0.0f);
+            m_gridVertices.push_back(i * boxLength);
+
+            for (int j = 0; j < 2; j++)
+            {
+                m_gridColors.push_back(gridColor.r); // 일반 그리드 색상
+                m_gridColors.push_back(gridColor.g);
+                m_gridColors.push_back(gridColor.b);
+            }
         }
     }
 }
@@ -102,18 +128,41 @@ void Context::RenderGrid(const glm::mat4 &view, const glm::mat4 &projection, con
     auto transform = projection * view * gridTransform;
 
     m_program1->SetUniform("transform", transform);
-    m_program1->SetUniform("gridColor", glm::vec3(0.1f, 0.1f, 0.1f));
-
-    // 그리드 그리기
-    glLineWidth(1.0f);
+    // 1. 일반 그리드 그리기
+    glLineWidth(1.0f); // 일반 그리드와 5의 배수는 기본 굵기
     glBindVertexArray(m_gridVAO);
-    glDrawArrays(GL_LINES, 0, static_cast<GLsizei>(m_gridVertices.size() / 3));
-    glBindVertexArray(0);
+    glBindBuffer(GL_ARRAY_BUFFER, m_gridVBO);
+    glBufferData(GL_ARRAY_BUFFER, m_gridVertices.size() * sizeof(float), m_gridVertices.data(), GL_STATIC_DRAW);
 
-    glLineWidth(3.0f); // 굵은 선 굵기
+    glEnableVertexAttribArray(0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
+
+    // 일반 그리드 색상 적용
+    glBindBuffer(GL_ARRAY_BUFFER, m_gridColorVBO);
+    glBufferData(GL_ARRAY_BUFFER, m_gridColors.size() * sizeof(float), m_gridColors.data(), GL_STATIC_DRAW);
+
+    glEnableVertexAttribArray(1);
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
+
+    glDrawArrays(GL_LINES, 0, static_cast<GLsizei>(m_gridVertices.size() / 3));
+
+    // 2. 굵은 그리드 그리기 (x=0, z=0인 축만 굵게)
+    glLineWidth(1.5f); // x=0, z=0 축만 굵게 설정
     glBindVertexArray(m_boldGridVAO);
+    glBindBuffer(GL_ARRAY_BUFFER, m_boldGridVBO);
+    glBufferData(GL_ARRAY_BUFFER, m_boldGridVertices.size() * sizeof(float), m_boldGridVertices.data(), GL_STATIC_DRAW);
+
+    glEnableVertexAttribArray(0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
+
+    // 굵은 그리드 색상 적용
+    glBindBuffer(GL_ARRAY_BUFFER, m_boldGridColorVBO);
+    glBufferData(GL_ARRAY_BUFFER, m_boldGridColors.size() * sizeof(float), m_boldGridColors.data(), GL_STATIC_DRAW);
+
+    glEnableVertexAttribArray(1);
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
+
     glDrawArrays(GL_LINES, 0, static_cast<GLsizei>(m_boldGridVertices.size() / 3));
-    glBindVertexArray(0);
 }
 
 ContextUPtr Context::Create()
@@ -135,7 +184,7 @@ void Context::ProcessInput(GLFWwindow *window)
 {
     if (!m_cameraControl)
         return;
-    const float cameraSpeed = 0.05f;
+    const float cameraSpeed = 0.15f;
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
         m_cameraPos += cameraSpeed * m_cameraFront;
     if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
@@ -161,7 +210,7 @@ void Context::MouseMove(double x, double y)
     auto pos = glm::vec2((float)x, (float)y);
     auto deltaPos = pos - m_prevMousePos;
 
-    const float cameraRotSpeed = 2.0f;
+    const float cameraRotSpeed = 1.0f;
     m_cameraYaw -= deltaPos.x * cameraRotSpeed;
     m_cameraPitch -= deltaPos.y * cameraRotSpeed;
 
@@ -216,23 +265,44 @@ bool Context::Init()
 
     glGenVertexArrays(1, &m_gridVAO);
     glGenBuffers(1, &m_gridVBO);
+    glGenBuffers(1, &m_gridColorVBO);
 
     glBindVertexArray(m_gridVAO);
+
+    // 그리드 버텍스 설정
     glBindBuffer(GL_ARRAY_BUFFER, m_gridVBO);
     glBufferData(GL_ARRAY_BUFFER, m_gridVertices.size() * sizeof(float), m_gridVertices.data(), GL_STATIC_DRAW);
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
     glEnableVertexAttribArray(0);
+
+    // 그리드 색상 설정
+    glBindBuffer(GL_ARRAY_BUFFER, m_gridColorVBO);
+    glBufferData(GL_ARRAY_BUFFER, m_gridColors.size() * sizeof(float), m_gridColors.data(), GL_STATIC_DRAW);
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
+    glEnableVertexAttribArray(1);
+
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 
+    // 굵은 그리드 설정
     glGenVertexArrays(1, &m_boldGridVAO);
     glGenBuffers(1, &m_boldGridVBO);
+    glGenBuffers(1, &m_boldGridColorVBO);
 
     glBindVertexArray(m_boldGridVAO);
+
+    // 굵은 그리드 버텍스 설정
     glBindBuffer(GL_ARRAY_BUFFER, m_boldGridVBO);
     glBufferData(GL_ARRAY_BUFFER, m_boldGridVertices.size() * sizeof(float), m_boldGridVertices.data(), GL_STATIC_DRAW);
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
     glEnableVertexAttribArray(0);
+
+    // 굵은 그리드 색상 설정
+    glBindBuffer(GL_ARRAY_BUFFER, m_boldGridColorVBO);
+    glBufferData(GL_ARRAY_BUFFER, m_boldGridColors.size() * sizeof(float), m_boldGridColors.data(), GL_STATIC_DRAW);
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
+    glEnableVertexAttribArray(1);
+
     glBindBuffer(GL_ARRAY_BUFFER, 0);
     glBindVertexArray(0);
 

@@ -68,95 +68,95 @@ bool Model::LoadByAssimp(const std::string &filename)   //Assimp라이브러리 
        glMaterial->specular = LoadTexture(material, aiTextureType_SPECULAR);
        m_materials.push_back(std::move(glMaterial));
    }
-  */
+   */
     
-         for (uint32_t i = 0; i < scene->mNumMaterials; i++)
-         {
-             auto material = scene->mMaterials[i];
-             auto glMaterial = Material::Create();
+    for (uint32_t i = 0; i < scene->mNumMaterials; i++)
+    {
+        auto material = scene->mMaterials[i];
+        auto glMaterial = Material::Create();
 
-             // Diffuse 색상 로드 (MTL 파일의 Kd 값)
-             aiColor3D diffuseColor(0.8f, 0.8f, 0.8f); // 기본값 설정
-             if (material->Get(AI_MATKEY_COLOR_DIFFUSE, diffuseColor) == AI_SUCCESS)
-             {
-                 glMaterial->diffuseColor = glm::vec3(diffuseColor.r, diffuseColor.g, diffuseColor.b);
-                // SPDLOG_INFO("Diffuse Color Loaded: {}, {}, {}", diffuseColor.r, diffuseColor.g, diffuseColor.b);
-             }
+        // Diffuse 색상 로드 (MTL 파일의 Kd 값)
+        aiColor3D diffuseColor(0.8f, 0.8f, 0.8f); // 기본값 설정
+        if (material->Get(AI_MATKEY_COLOR_DIFFUSE, diffuseColor) == AI_SUCCESS)
+        {
+            glMaterial->diffuseColor = glm::vec3(diffuseColor.r, diffuseColor.g, diffuseColor.b);
+            // SPDLOG_INFO("Diffuse Color Loaded: {}, {}, {}", diffuseColor.r, diffuseColor.g, diffuseColor.b);
+        }
 
-             aiColor3D ambientColor(1.0f, 1.0f, 1.0f); // 기본값 설정
-             if (material->Get(AI_MATKEY_COLOR_AMBIENT, ambientColor) == AI_SUCCESS)
-             {
-                 glMaterial->ambientColor = glm::vec3(ambientColor.r, ambientColor.g, ambientColor.b);
-                // SPDLOG_INFO("ambient Color Loaded: {}, {}, {}", ambientColor.r, ambientColor.g, ambientColor.b);
-             }
+        aiColor3D ambientColor(1.0f, 1.0f, 1.0f); // 기본값 설정
+        if (material->Get(AI_MATKEY_COLOR_AMBIENT, ambientColor) == AI_SUCCESS)
+        {
+            glMaterial->ambientColor = glm::vec3(ambientColor.r, ambientColor.g, ambientColor.b);
+            // SPDLOG_INFO("ambient Color Loaded: {}, {}, {}", ambientColor.r, ambientColor.g, ambientColor.b);
+        }
 
-             // Specular 색상 로드 (MTL 파일의 Ks 값)
-             aiColor3D specularColor(1.0f, 1.0f, 1.0f); // 기본값 설정
-             if (material->Get(AI_MATKEY_COLOR_SPECULAR, specularColor) == AI_SUCCESS)
-             {
-                 glMaterial->specularColor = glm::vec3(specularColor.r, specularColor.g, specularColor.b);
-                // SPDLOG_INFO("Specular Color Loaded: {}, {}, {}", specularColor.r, specularColor.g, specularColor.b);
-             }
+        // Specular 색상 로드 (MTL 파일의 Ks 값)
+        aiColor3D specularColor(1.0f, 1.0f, 1.0f); // 기본값 설정
+        if (material->Get(AI_MATKEY_COLOR_SPECULAR, specularColor) == AI_SUCCESS)
+        {
+            glMaterial->specularColor = glm::vec3(specularColor.r, specularColor.g, specularColor.b);
+            // SPDLOG_INFO("Specular Color Loaded: {}, {}, {}", specularColor.r, specularColor.g, specularColor.b);
+        }
 
-             // Shininess 로드 (MTL 파일의 Ns 값)
-             float shininess = 32.0f; // 기본값 설정
-             if (material->Get(AI_MATKEY_SHININESS, shininess) == AI_SUCCESS)
-             {
-                 glMaterial->shininess = shininess;
-                // SPDLOG_INFO("Shininess Loaded: {}", shininess);
-             }
+        // Shininess 로드 (MTL 파일의 Ns 값)
+        float shininess = 32.0f; // 기본값 설정
+        if (material->Get(AI_MATKEY_SHININESS, shininess) == AI_SUCCESS)
+        {
+            glMaterial->shininess = shininess;
+            // SPDLOG_INFO("Shininess Loaded: {}", shininess);
+        }
 
-             m_materials.push_back(std::move(glMaterial));
-         }
- 
+        m_materials.push_back(std::move(glMaterial));
+    }
+
     ProcessNode(scene->mRootNode, scene); // 루트 노드부터 시작해 씬을 재귀적으로 처리하는 ProcessNode 함수를 호출);
     // ShutdownAssimpLogger();
     return true;
 }
 
-    void Model::ProcessNode(aiNode * node, const aiScene *scene) // 현재 노드에 포함된 메쉬를 반복하면서 처리
+void Model::ProcessNode(aiNode * node, const aiScene *scene) // 현재 노드에 포함된 메쉬를 반복하면서 처리
+{
+    aiMatrix4x4 transformation = node->mTransformation;
+    aiVector3D scaling;
+    aiQuaternion rotation;
+    aiVector3D position;
+
+    transformation.Decompose(scaling, rotation, position);
+
+    position.x *= 0.001;
+    position.y *= 0.001;
+    position.z *= 0.001;
+
+    if (node->mParent)
     {
-       aiMatrix4x4 transformation = node->mTransformation;
-       aiVector3D scaling;
-       aiQuaternion rotation;
-       aiVector3D position;
+        SPDLOG_INFO("Node name: {}, Parent name: {}, Node position: x={}, y={}, z={}", node->mName.C_Str(), node->mParent->mName.C_Str(), position.x, position.y, position.z);
+    }
+    else
+    {
+        SPDLOG_INFO("Node name: {}, Parent name: None (Root Node), Node position: x={}, y={}, z={}", node->mName.C_Str(), position.x, position.y, position.z);
+    }
 
-       transformation.Decompose(scaling, rotation, position);
+    for (uint32_t i = 0; i < node->mNumMeshes; i++)
+    {
 
-       position.x *= 0.001;
-       position.y *= 0.001;
-       position.z *= 0.001;
+        auto meshIndex = node->mMeshes[i];
+        auto mesh = scene->mMeshes[meshIndex];
 
-       if (node->mParent)
-       {
-           SPDLOG_INFO("Node name: {}, Parent name: {}, Node position: x={}, y={}, z={}", node->mName.C_Str(), node->mParent->mName.C_Str(), position.x, position.y, position.z);
-        }
-        else
-        {
-            SPDLOG_INFO("Node name: {}, Parent name: None (Root Node), Node position: x={}, y={}, z={}", node->mName.C_Str(), position.x, position.y, position.z);
-        }
+        auto glMesh = ProcessMesh(mesh, scene);
+        glMesh->SetNodeName(node->mName.C_Str()); // 현재 노드의 이름을 메쉬에 설정합니다.
 
-        for (uint32_t i = 0; i < node->mNumMeshes; i++)
-        {
+        // 처리한 메쉬를 m_meshes 벡터에 추가합니다.
+        m_meshes.push_back(std::move(glMesh));
 
-            auto meshIndex = node->mMeshes[i];
-            auto mesh = scene->mMeshes[meshIndex];
+        //ProcessMesh(mesh, scene);
+    }
 
-            auto glMesh = ProcessMesh(mesh, scene);
-            glMesh->SetNodeName(node->mName.C_Str()); // 현재 노드의 이름을 메쉬에 설정합니다.
-
-            // 처리한 메쉬를 m_meshes 벡터에 추가합니다.
-            m_meshes.push_back(std::move(glMesh));
-
-            //ProcessMesh(mesh, scene);
-        }
-
-        for (uint32_t i = 0; i < node->mNumChildren; i++) // 자식 노드가 있으면 똑같이 ㄱㄱ
-        {
-            aiNode *childNode = node->mChildren[i];
-            nodeHierarchy[node->mName.C_Str()].push_back(childNode->mName.C_Str());
-            ProcessNode(node->mChildren[i], scene);
-        }
+    for (uint32_t i = 0; i < node->mNumChildren; i++) // 자식 노드가 있으면 똑같이 ㄱㄱ
+    {
+        aiNode *childNode = node->mChildren[i];
+        nodeHierarchy[node->mName.C_Str()].push_back(childNode->mName.C_Str());
+        ProcessNode(node->mChildren[i], scene);
+    }
 }
 
 MeshUPtr Model::ProcessMesh(aiMesh *mesh, const aiScene *scene) // 메쉬 데이터 처리

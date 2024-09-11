@@ -1,10 +1,14 @@
 #version 330 core
 
-layout(location = 0) in vec3 aPos;   // 버텍스 좌표 입력
+layout(location = 0) in vec3 aPos;   // 버텍스 위치
+layout(location = 1) in vec3 aColor; // 버텍스 색상
 
-uniform mat4 transform;              // 변환 행렬
+out vec3 vertexColor; // 프래그먼트 셰이더로 전달할 색상
+
+uniform mat4 transform;
 
 void main()
 {
-    gl_Position = transform * vec4(aPos, 1.0);  // 변환 행렬을 적용한 최종 위치 계산
+    gl_Position = transform * vec4(aPos, 1.0);
+    vertexColor = aColor; // 입력된 색상 정보를 그대로 전달
 }
