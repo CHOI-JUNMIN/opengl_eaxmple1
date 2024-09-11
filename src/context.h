@@ -21,11 +21,17 @@ public:
     void MouseMove(double x, double y);
     void MouseButton(int button, int action, double x, double y);
 
+    void CreateGrid(int gridSize, float boxLength);
+    void RenderGrid(const glm::mat4 &view, const glm::mat4 &projection, const glm::mat4 &gridTransform);
+
 private:
-    Context() {}
+    Context()
+    {
+    }
     bool Init();
     ProgramUPtr m_program;
     ProgramUPtr m_simpleProgram;
+    ProgramUPtr m_program1;
 
     ModelUPtr m_model;
     TextureUPtr m_texture;
@@ -58,6 +64,9 @@ private:
 
     int m_width{WINDOW_WIDTH};
     int m_height{WINDOW_HEIGHT};
+
+    std::vector<float> m_gridVertices;
+    GLuint m_gridVAO, m_gridVBO;
 };
 
 #endif // __CONTEXT_H__

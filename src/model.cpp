@@ -218,7 +218,7 @@ void Model::Draw(const Program *program) const
         // 셰이더 프로그램에 재질 정보 전달
         glm::vec3 lightPos(0.0f, 1.0f, 1.0f);
 
-        glm::mat NewModelMatrix = glm::translate(modelMatrix, glm::vec3(Pos, 0.0f, 0.0f));
+        glm::mat NewModelMatrix = glm::translate(modelMatrix, glm::vec3(Pos, 0.5f, 0.0f));
 
         program->Use();
         program->SetUniform("materialdiffuse", material->diffuseColor);

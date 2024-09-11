@@ -3,6 +3,49 @@
 #include <imgui.h>
 #include "model.h"
 
+void Context::CreateGrid(int gridSize, float boxLength)
+{
+    m_gridVertices.clear(); // 기존 그리드 데이터를 초기화
+
+    for (int i = -gridSize; i <= gridSize; i++)
+    {
+        m_gridVertices.push_back(i * boxLength);         // X 좌표
+        m_gridVertices.push_back(0.0f);                  // Y 좌표 (평면이므로 0)
+        m_gridVertices.push_back(-gridSize * boxLength); // Z 좌표 시작
+
+        m_gridVertices.push_back(i * boxLength);        // X 좌표
+        m_gridVertices.push_back(0.0f);                 // Y 좌표
+        m_gridVertices.push_back(gridSize * boxLength); // Z 좌표 끝
+    }
+
+    for (int j = -gridSize; j <= gridSize; j++)
+    {
+        m_gridVertices.push_back(-gridSize * boxLength); // X 좌표 시작
+        m_gridVertices.push_back(0.0f);                  // Y 좌표
+        m_gridVertices.push_back(j * boxLength);         // Z 좌표
+
+        m_gridVertices.push_back(gridSize * boxLength); // X 좌표 끝
+        m_gridVertices.push_back(0.0f);                 // Y 좌표
+        m_gridVertices.push_back(j * boxLength);        // Z 좌표
+    }
+}
+
+void Context::RenderGrid(const glm::mat4 &view, const glm::mat4 &projection, const glm::mat4 &gridTransform)
+{
+    m_program1->Use(); // 셰이더 프로그램 사용
+
+    // 그리드의 변환 행렬을 별도로 적용
+    auto transform = projection * view * gridTransform;
+
+    m_program1->SetUniform("transform", transform);
+    m_program1->SetUniform("gridColor", glm::vec3(0.5f, 0.5f, 0.5f));
+
+    // 그리드 그리기
+    glBindVertexArray(m_gridVAO);
+    glDrawArrays(GL_LINES, 0, static_cast<GLsizei>(m_gridVertices.size() / 3));
+    glBindVertexArray(0);
+}
+
 ContextUPtr Context::Create()
 {
     auto context = ContextUPtr(new Context());
@@ -92,8 +135,31 @@ bool Context::Init()
     m_program = Program::Create("./shader/lighting.vs", "./shader/lighting.fs");
     if (!m_program)
         return false;
-    
-    glClearColor(0.0f, 0.1f, 0.2f, 0.0f);
+
+    m_program1 = Program::Create("./shader/grid.vs", "./shader/grid.fs");
+    if (!m_program)
+        return false;
+
+    int gridSize = 50;      // 그리드 크기
+    float boxLength = 1.0f; // 각 그리드의 크기
+    CreateGrid(gridSize, boxLength);
+
+    glGenVertexArrays(1, &m_gridVAO);
+    glGenBuffers(1, &m_gridVBO);
+
+    glBindVertexArray(m_gridVAO);
+
+    glBindBuffer(GL_ARRAY_BUFFER, m_gridVBO);
+    glBufferData(GL_ARRAY_BUFFER, m_gridVertices.size() * sizeof(float), m_gridVertices.data(), GL_STATIC_DRAW);
+
+    // 위치 속성 설정
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void *)0);
+    glEnableVertexAttribArray(0);
+
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    glBindVertexArray(0);
+
+    glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
     return true;
 }
 
@@ -129,13 +195,16 @@ void Context::Render()
         glm::rotate(glm::mat4(1.0f), glm::radians(m_cameraPitch), glm::vec3(1.0f, 0.0f, 0.0f)) *
         glm::vec4(0.0f, 0.0f, -1.0f, 0.0f); // 맨뒤에 1이면 점, 0이면 벡터 0을 집어넣으면 평행이동이 안됨
 
-    auto projection = glm::perspective(glm::radians(45.0f), (float)m_width / (float)m_height, 0.01f, 30.0f);
+    auto projection = glm::perspective(glm::radians(45.0f), (float)m_width / (float)m_height, 0.01f, 100.0f);
 
     auto view = glm::lookAt(m_cameraPos, m_cameraPos + m_cameraFront, m_cameraUp);
 
+    glm::mat4 gridTransform = glm::mat4(1.0f);
+    RenderGrid(view, projection, gridTransform);
+
     m_program->Use();
 
-    auto modelTransform = glm::mat4(1.0f);
+    glm::mat4 modelTransform = glm::mat4(1.0f);
     auto transform = projection * view * modelTransform;
 
     glm::mat4 modelMatrix = glm::scale(glm::mat4(1.0f), glm::vec3(0.5f, 0.5f, 0.5f));
