@@ -243,7 +243,7 @@ void Context::MouseButton(int button, int action, double x, double y)
 }
 bool Context::Init()
 {
-    m_model = Model::Load("./model/crate1.3ds");
+    m_model = Model::Load("./model/ttt.3ds");
     if (!m_model)
         return false;
 
@@ -309,7 +309,9 @@ bool Context::Init()
     glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
     return true;
 }
-
+static std::vector<float> values;
+const int NUM_BINS = 10;
+static float histogram_bins[NUM_BINS] = {0.0f};
 void Context::Render()
 {
     if (ImGui::Begin("ui window"))
@@ -330,7 +332,24 @@ void Context::Render()
             m_cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
         }
         ImGui::Separator();
+
+        int random_change = rand() % 2 == 0 ? 1 : -1;
+        a += random_change;
+
+        if (values.size() < 1000) // 배열의 크기를 100으로 설정
+            values.push_back(a);
+        else
+        {
+            values[values_offset] = a;
+            values_offset = (values_offset + 1) % values.size();
+        }
+        if (a < -5 || a > 5)
+            a = 0;
         ImGui::DragFloat("a", &a, 0.1f, -5.0f, 5.0f);
+
+        ImGui::PlotLines("Lines", values.data(), values.size(), values_offset, nullptr, -5.0f, 5.0f, ImVec2(0, 80));
+        UpdateHistogram();
+        ImGui::PlotHistogram("Histogram", histogram_bins, NUM_BINS, 0, nullptr, 0.0f, 10.0f, ImVec2(0, 80));
         //ImGui::Checkbox("animation", &m_animation);
     }
     ImGui::End();
@@ -354,7 +373,7 @@ void Context::Render()
     glm::mat4 modelTransform = glm::mat4(1.0f);
     auto transform = projection * view * modelTransform;
 
-    glm::mat4 modelMatrix = glm::scale(glm::mat4(1.0f), glm::vec3(0.5f, 0.5f, 0.5f));
+    glm::mat4 modelMatrix = glm::scale(glm::mat4(1.0f), glm::vec3(0.01f, 0.01f, 0.01f));
 
     m_program->SetUniform("transform", transform);
     m_program->SetUniform("modelTransform", modelTransform);
@@ -363,4 +382,25 @@ void Context::Render()
     m_model->SetPosition(a);
 
     m_model->Draw(m_program.get());
+}
+
+void Context::UpdateHistogram()
+{
+    // 히스토그램을 위해 구간(bin) 초기화
+    for (int i = 0; i < NUM_BINS; ++i)
+        histogram_bins[i] = 0;
+
+    // -5에서 5까지의 범위를 NUM_BINS 구간으로 나눕니다.
+    const float min_value = -5.0f;
+    const float max_value = 5.0f;
+    const float bin_size = (max_value - min_value) / NUM_BINS;
+
+    // values 배열을 순회하면서 값을 각 구간에 할당
+    for (float value : values)
+    {
+        // value가 속하는 구간을 계산
+        int bin_index = static_cast<int>((value - min_value) / bin_size);
+        bin_index = std::min(std::max(bin_index, 0), NUM_BINS - 1); // 인덱스를 0과 NUM_BINS-1 사이로 제한
+        histogram_bins[bin_index]++;
+    }
 }

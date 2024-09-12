@@ -23,9 +23,8 @@ public:
 
     void CreateGrid(int gridSize, float boxLength);
     void RenderGrid(const glm::mat4 &view, const glm::mat4 &projection, const glm::mat4 &gridTransform);
-
-private:
-    Context()
+    void UpdateHistogram() ;
+private : Context()
     {
     }
     bool Init();
@@ -58,6 +57,7 @@ private:
     float m_cameraPitch{-20.0f};
     float m_cameraYaw{0.0f};
     float a{0.0f};
+    int values_offset = 0;
     glm::vec3 m_cameraPos{glm::vec3(0.0f, 5.0f, 10.0f)};
     glm::vec3 m_cameraFront{glm::vec3(0.0f, 0.0f, -1.0f)};
     glm::vec3 m_cameraUp{glm::vec3(0.0f, 1.0f, 0.0f)};

@@ -1,26 +1,7 @@
 #include "model.h"
-
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <iostream>
-/*
-#include <assimp/Logger.hpp>
-#include <assimp/DefaultLogger.hpp>
-
-void InitAssimpLogger()
-{
-    Assimp::DefaultLogger::create("log.txt", Assimp::Logger::VERBOSE, aiDefaultLogStream_FILE);
-
-    // 로그 메시지 설정
-    Assimp::DefaultLogger::get()->info("Assimp Logger Initialized.");
-}
-
-// 로그 종료 함수 추가
-void ShutdownAssimpLogger()
-{
-    Assimp::DefaultLogger::kill();
-}
-*/
 
 ModelUPtr Model::Load(const std::string &filename)    //모델로드 함수
 {
@@ -32,8 +13,6 @@ ModelUPtr Model::Load(const std::string &filename)    //모델로드 함수
 
 bool Model::LoadByAssimp(const std::string &filename)   //Assimp라이브러리 사용 모델로드
 {
-    //InitAssimpLogger();
-
     Assimp::Importer importer;
     auto scene = importer.ReadFile(filename, aiProcess_Triangulate | aiProcess_FlipUVs | aiProcess_GenNormals); // 모델 파일로드
     //                                          모든메쉬 삼각형 변환    UV좌표 상하 반전

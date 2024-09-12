@@ -13,6 +13,7 @@ Texture::~Texture()
     if (m_texture)
     {
         glDeleteTextures(1, &m_texture);
+        m_texture = 0;
     }
 }
 
@@ -23,12 +24,14 @@ void Texture::Bind() const
 
 void Texture::SetFilter(uint32_t minFilter, uint32_t magFilter) const
 {
+    glBindTexture(GL_TEXTURE_2D, m_texture); // 텍스처 바인딩
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, minFilter);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, magFilter);
 }
 
 void Texture::SetWrap(uint32_t sWrap, uint32_t tWrap) const
 {
+    glBindTexture(GL_TEXTURE_2D, m_texture); // 텍스처 바인딩
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, sWrap);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, tWrap);
 }
