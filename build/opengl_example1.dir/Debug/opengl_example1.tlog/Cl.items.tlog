@@ -9,3 +9,9 @@ C:\Users\Public\opengl_eaxmple1\src\image.cpp;C:\Users\Public\opengl_eaxmple1\bu
 C:\Users\Public\opengl_eaxmple1\src\texture.cpp;C:\Users\Public\opengl_eaxmple1\build\opengl_example1.dir\Debug\texture.obj
 C:\Users\Public\opengl_eaxmple1\src\mesh.cpp;C:\Users\Public\opengl_eaxmple1\build\opengl_example1.dir\Debug\mesh.obj
 C:\Users\Public\opengl_eaxmple1\src\model.cpp;C:\Users\Public\opengl_eaxmple1\build\opengl_example1.dir\Debug\model.obj
+C:\Users\Public\opengl_eaxmple1\src\context_camera.cpp;C:\Users\Public\opengl_eaxmple1\build\opengl_example1.dir\Debug\context_camera.obj
+C:\Users\Public\opengl_eaxmple1\src\context_grid.cpp;C:\Users\Public\opengl_eaxmple1\build\opengl_example1.dir\Debug\context_grid.obj
+C:\Users\Public\opengl_eaxmple1\src\context_render.cpp;C:\Users\Public\opengl_eaxmple1\build\opengl_example1.dir\Debug\context_render.obj
+C:\Users\Public\opengl_eaxmple1\src\mesh_create.cpp;C:\Users\Public\opengl_eaxmple1\build\opengl_example1.dir\Debug\mesh_create.obj
+C:\Users\Public\opengl_eaxmple1\src\mesh_render.cpp;C:\Users\Public\opengl_eaxmple1\build\opengl_example1.dir\Debug\mesh_render.obj
+C:\Users\Public\opengl_eaxmple1\src\model_load.cpp;C:\Users\Public\opengl_eaxmple1\build\opengl_example1.dir\Debug\model_load.obj

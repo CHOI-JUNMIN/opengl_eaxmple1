@@ -1,6 +1,4 @@
-#ifndef __CONTEXT_H__
-#define __CONTEXT_H__
-
+#pragma once
 #include "common.h"
 #include "shader.h"
 #include "program.h"
@@ -24,7 +22,11 @@ public:
     void CreateGrid(int gridSize, float boxLength);
     void RenderGrid(const glm::mat4 &view, const glm::mat4 &projection, const glm::mat4 &gridTransform);
     void UpdateHistogram() ;
-private : Context()
+    void AddGridLine(float pos, float start, float end, const glm::vec3 &color);
+    void AddBoldGridLine(float pos, float start, float end, const glm::vec3 &xColor, const glm::vec3 &zColor);
+
+private:
+    Context()
     {
     }
     bool Init();
@@ -73,5 +75,3 @@ private : Context()
     GLuint m_boldGridVAO, m_boldGridVBO;
     GLuint m_gridColorVBO, m_boldGridColorVBO;
 };
-
-#endif // __CONTEXT_H__

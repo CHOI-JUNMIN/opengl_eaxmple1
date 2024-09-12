@@ -1,6 +1,4 @@
-#ifndef __BUFFER_H__
-#define __BUFFER_H__
-
+#pragma once
 #include "common.h"
 
 CLASS_PTR(Buffer)
@@ -23,5 +21,3 @@ private:
     size_t m_stride{0};
     size_t m_count{0};
 };
-
-#endif // __BUFFER_H__

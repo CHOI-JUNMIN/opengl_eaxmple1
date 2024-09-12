@@ -20,6 +20,9 @@ add_executable(${PROJECT_NAME}
     src/texture.cpp src/texture.h
     src/mesh.cpp src/mesh.h
     src/model.cpp src/model.h
+    src/context_camera.cpp src/context_grid.cpp
+    src/context_render.cpp src/mesh_create.cpp
+    src/mesh_render.cpp src/model_load.cpp
     )
 
 include(Dependency.cmake)
