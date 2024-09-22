@@ -8,35 +8,20 @@ const int NUM_BINS = 10;
 static float histogram_bins[NUM_BINS] = {0.0f};
 static std::chrono::time_point<std::chrono::steady_clock> last_update_time;
 static float update_interval = 0.01f; // 0.1초마다 값 업데이트
+std::vector<int> visited_states;
 float x_data[] = {-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5};
 float visit_counts[11] = {0};
 int episode_count = 0;
 int max_episodes = 100;
+float V[11] = {0};
+float reward = 0;
 
 void Context::Render()
 {
-    ImGui::SetNextWindowSize(ImVec2(400, 400)); // 임의의 크기 설정
+    ImGui::SetNextWindowSize(ImVec2(400, 600)); // 임의의 크기 설정
     ImGui::SetNextWindowPos(ImVec2(0, 0));  // 임의의 위치 설정
     if (ImGui::Begin("ui window"))
     {
-
-        // if (ImGui::ColorEdit4("clear color", glm::value_ptr(m_clearColor)))
-        // {
-        //     glClearColor(m_clearColor.r, m_clearColor.g, m_clearColor.b, m_clearColor.a);
-        // }
-        // ImGui::Separator();
-        // ImGui::DragFloat3("camera pos", glm::value_ptr(m_cameraPos), 0.01f);
-        // ImGui::DragFloat("camera yaw", &m_cameraYaw, 0.5f);
-        // ImGui::DragFloat("camera pitch", &m_cameraPitch, 0.5f, -89.0f, 89.0f);
-        // ImGui::Separator();
-        // if (ImGui::Button("reset camera"))
-        // {
-        //     m_cameraYaw = 0.0f;
-        //     m_cameraPitch = 0.0f;
-        //     m_cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
-        // }
-        // ImGui::Separator();
-
         auto now = std::chrono::steady_clock::now();
         std::chrono::duration<float> elapsed = now - last_update_time;
 
@@ -47,25 +32,50 @@ void Context::Render()
             a += random_change;
             last_update_time = now; // 업데이트된 시간을 기록
 
-            for (int j = 0; j < 11; ++j)
+            for (int i= 0; i < 11; ++i)
             {
-                visit_counts[j] = static_cast<float>(visit_counts[j]);
+                visit_counts[i] = static_cast<float>(visit_counts[i]);
             }
 
             int index = a + 5;
             visit_counts[index]++;
+            visited_states.push_back(index);
+
             if (a <= -5 || a >= 5){
+                reward = (a == 5) ? 1 : (a == -5) ? -1 : 0; // -5에 도달하면 -1, 5에 도달하면 1
+                for (int state : visited_states)
+                {
+                    V[state] += reward; // 해당 상태의 기댓값 업데이트
+                }
+
+                visited_states.clear();
                 a = 0;
                 episode_count++;
             }
         }
-        ImGui::Text("Episode count: %d", episode_count);
-        if (ImPlot::BeginPlot("graph", "Coordinate", "Visits Count"))
-        {
-            // x축 범위 설정 (-5 ~ 5)
-            ImPlot::SetupAxisLimits(ImAxis_X1, -5, 5);
+        ImGui::Text("Episode count: %d / %d", episode_count, max_episodes);
 
-            // y축 범위 설정 (0 ~ 500, 방문 횟수에 따라 조정)
+        if (ImPlot::BeginPlot("Expected Return",  ImVec2(350, 250)))
+        {
+            ImPlot::SetupAxisLimits(ImAxis_X1, -5, 5);
+            ImPlot::SetupAxisLimits(ImAxis_Y1, -1, 1);
+
+            float x_data[11];
+            float v_data[11];
+            for (int i = 0; i < 11; ++i)
+            {
+                x_data[i] = i - 5;                                                 // x축 값 (-5 ~ 5)
+                v_data[i] = (visit_counts[i] > 0) ? V[i] / visit_counts[i] : 0.0f; // 기댓값 V(s) 계산 (방문 횟수로 나눈 값)
+            }
+
+            // 선형 그래프 그리기 (PlotLine 사용)
+            ImPlot::PlotLine("V(s)", x_data, v_data, 11);
+
+            ImPlot::EndPlot();
+        }
+        if (ImPlot::BeginPlot("graph", ImVec2(350, 250)))
+        {
+            ImPlot::SetupAxisLimits(ImAxis_X1, -5, 5);
             ImPlot::SetupAxisLimits(ImAxis_Y1, 0, 500);
 
             // 선형 그래프 그리기 (PlotLine 사용)
