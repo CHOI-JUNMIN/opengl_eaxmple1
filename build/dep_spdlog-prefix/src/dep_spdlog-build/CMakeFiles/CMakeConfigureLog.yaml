@@ -24,7 +24,7 @@ events:
       The output was:
       0
       msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-      빌드 시작: 2024-09-10 오후 5:40:40
+      빌드 시작: 2024-09-22 오후 2:08:27
       
       1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\3.30.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:00.83
+      경과 시간: 00:00:00.75
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -72,8 +72,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-2y8tot"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-2y8tot"
+      source: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-ashbzm"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-ashbzm"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -83,40 +83,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-2y8tot'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-ashbzm'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3a790.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_07265.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-10 오후 5:40:41
+        빌드 시작: 2024-09-22 오후 2:08:28
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-2y8tot\\cmTC_3a790.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ashbzm\\cmTC_07265.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_3a790.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_07265.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-2y8tot\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_3a790.dir\\Debug\\cmTC_3a790.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ashbzm\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_07265.dir\\Debug\\cmTC_07265.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_3a790.dir\\Debug\\cmTC_3a790.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_3a790.dir\\Debug\\cmTC_3a790.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_07265.dir\\Debug\\cmTC_07265.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_07265.dir\\Debug\\cmTC_07265.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a790.dir\\Debug\\\\" /Fd"cmTC_3a790.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07265.dir\\Debug\\\\" /Fd"cmTC_07265.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a790.dir\\Debug\\\\" /Fd"cmTC_3a790.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07265.dir\\Debug\\\\" /Fd"cmTC_07265.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-2y8tot\\Debug\\cmTC_3a790.exe" /INCREMENTAL /ILK:"cmTC_3a790.dir\\Debug\\cmTC_3a790.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-2y8tot/Debug/cmTC_3a790.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-2y8tot/Debug/cmTC_3a790.lib" /MACHINE:X64  /machine:x64 cmTC_3a790.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_3a790.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-2y8tot\\Debug\\cmTC_3a790.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ashbzm\\Debug\\cmTC_07265.exe" /INCREMENTAL /ILK:"cmTC_07265.dir\\Debug\\cmTC_07265.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-ashbzm/Debug/cmTC_07265.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-ashbzm/Debug/cmTC_07265.lib" /MACHINE:X64  /machine:x64 cmTC_07265.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_07265.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ashbzm\\Debug\\cmTC_07265.exe
         FinalizeBuildStatus:
-          "cmTC_3a790.dir\\Debug\\cmTC_3a790.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_3a790.dir\\Debug\\cmTC_3a790.tlog\\cmTC_3a790.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-2y8tot\\cmTC_3a790.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_07265.dir\\Debug\\cmTC_07265.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_07265.dir\\Debug\\cmTC_07265.tlog\\cmTC_07265.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ashbzm\\cmTC_07265.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.75
+        경과 시간: 00:00:00.70
         
       exitCode: 0
   -
@@ -158,8 +158,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-iw11ig"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-iw11ig"
+      source: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-shfqft"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-shfqft"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc /Zc:__cplusplus /MP"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -168,40 +168,40 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-iw11ig'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-shfqft'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_adcc0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_15bc4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-10 오후 5:40:42
+        빌드 시작: 2024-09-22 오후 2:08:29
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw11ig\\cmTC_adcc0.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-shfqft\\cmTC_15bc4.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_adcc0.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_15bc4.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw11ig\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_adcc0.dir\\Debug\\cmTC_adcc0.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-shfqft\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_15bc4.dir\\Debug\\cmTC_15bc4.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_adcc0.dir\\Debug\\cmTC_adcc0.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_adcc0.dir\\Debug\\cmTC_adcc0.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_15bc4.dir\\Debug\\cmTC_15bc4.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_15bc4.dir\\Debug\\cmTC_15bc4.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_adcc0.dir\\Debug\\\\" /Fd"cmTC_adcc0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw11ig\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15bc4.dir\\Debug\\\\" /Fd"cmTC_15bc4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-shfqft\\src.cxx"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_adcc0.dir\\Debug\\\\" /Fd"cmTC_adcc0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw11ig\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15bc4.dir\\Debug\\\\" /Fd"cmTC_15bc4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-shfqft\\src.cxx"
           src.cxx
-        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw11ig\\src.cxx(1,10): error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw11ig\\cmTC_adcc0.vcxproj]
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw11ig\\cmTC_adcc0.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-shfqft\\src.cxx(1,10): error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-shfqft\\cmTC_15bc4.vcxproj]
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-shfqft\\cmTC_15bc4.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
         
         빌드하지 못했습니다.
         
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw11ig\\cmTC_adcc0.vcxproj"(기본 대상)(1)->
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-shfqft\\cmTC_15bc4.vcxproj"(기본 대상)(1)->
         (ClCompile 대상) -> 
-          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw11ig\\src.cxx(1,10): error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw11ig\\cmTC_adcc0.vcxproj]
+          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-shfqft\\src.cxx(1,10): error C1083: 포함 파일을 열 수 없습니다. 'pthread.h': No such file or directory [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-shfqft\\cmTC_15bc4.vcxproj]
         
             경고 0개
             오류 1개
         
-        경과 시간: 00:00:00.48
+        경과 시간: 00:00:00.41
         
       exitCode: 1
   -
@@ -214,8 +214,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-nw1tyh"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-nw1tyh"
+      source: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-h5uesj"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-h5uesj"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc /Zc:__cplusplus /MP"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -224,42 +224,42 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-nw1tyh'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-h5uesj'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_20e8b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5ab1c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-10 오후 5:40:43
+        빌드 시작: 2024-09-22 오후 2:08:30
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-nw1tyh\\cmTC_20e8b.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-h5uesj\\cmTC_5ab1c.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_20e8b.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_5ab1c.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-nw1tyh\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_20e8b.dir\\Debug\\cmTC_20e8b.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-h5uesj\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_5ab1c.dir\\Debug\\cmTC_5ab1c.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_20e8b.dir\\Debug\\cmTC_20e8b.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_20e8b.dir\\Debug\\cmTC_20e8b.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_5ab1c.dir\\Debug\\cmTC_5ab1c.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_5ab1c.dir\\Debug\\cmTC_5ab1c.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20e8b.dir\\Debug\\\\" /Fd"cmTC_20e8b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-nw1tyh\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ab1c.dir\\Debug\\\\" /Fd"cmTC_5ab1c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-h5uesj\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20e8b.dir\\Debug\\\\" /Fd"cmTC_20e8b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-nw1tyh\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ab1c.dir\\Debug\\\\" /Fd"cmTC_5ab1c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-h5uesj\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-nw1tyh\\Debug\\cmTC_20e8b.exe" /INCREMENTAL /ILK:"cmTC_20e8b.dir\\Debug\\cmTC_20e8b.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-nw1tyh/Debug/cmTC_20e8b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-nw1tyh/Debug/cmTC_20e8b.lib" /MACHINE:X64  /machine:x64 cmTC_20e8b.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-nw1tyh\\cmTC_20e8b.vcxproj]
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-nw1tyh\\cmTC_20e8b.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-h5uesj\\Debug\\cmTC_5ab1c.exe" /INCREMENTAL /ILK:"cmTC_5ab1c.dir\\Debug\\cmTC_5ab1c.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-h5uesj/Debug/cmTC_5ab1c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-h5uesj/Debug/cmTC_5ab1c.lib" /MACHINE:X64  /machine:x64 cmTC_5ab1c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-h5uesj\\cmTC_5ab1c.vcxproj]
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-h5uesj\\cmTC_5ab1c.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
         
         빌드하지 못했습니다.
         
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-nw1tyh\\cmTC_20e8b.vcxproj"(기본 대상)(1)->
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-h5uesj\\cmTC_5ab1c.vcxproj"(기본 대상)(1)->
         (Link 대상) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-nw1tyh\\cmTC_20e8b.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-h5uesj\\cmTC_5ab1c.vcxproj]
         
             경고 0개
             오류 1개
         
-        경과 시간: 00:00:00.63
+        경과 시간: 00:00:00.56
         
       exitCode: 1
   -
@@ -272,8 +272,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-wurzxb"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-wurzxb"
+      source: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-ow3faw"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-ow3faw"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc /Zc:__cplusplus /MP"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -282,42 +282,42 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-wurzxb'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-ow3faw'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b493c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e4c6b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-10 오후 5:40:44
+        빌드 시작: 2024-09-22 오후 2:08:31
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-wurzxb\\cmTC_b493c.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ow3faw\\cmTC_e4c6b.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_b493c.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_e4c6b.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-wurzxb\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_b493c.dir\\Debug\\cmTC_b493c.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ow3faw\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_e4c6b.dir\\Debug\\cmTC_e4c6b.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_b493c.dir\\Debug\\cmTC_b493c.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_b493c.dir\\Debug\\cmTC_b493c.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_e4c6b.dir\\Debug\\cmTC_e4c6b.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_e4c6b.dir\\Debug\\cmTC_e4c6b.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b493c.dir\\Debug\\\\" /Fd"cmTC_b493c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-wurzxb\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4c6b.dir\\Debug\\\\" /Fd"cmTC_e4c6b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ow3faw\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b493c.dir\\Debug\\\\" /Fd"cmTC_b493c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-wurzxb\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e4c6b.dir\\Debug\\\\" /Fd"cmTC_e4c6b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  /Zc:__cplusplus "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ow3faw\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-wurzxb\\Debug\\cmTC_b493c.exe" /INCREMENTAL /ILK:"cmTC_b493c.dir\\Debug\\cmTC_b493c.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-wurzxb/Debug/cmTC_b493c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-wurzxb/Debug/cmTC_b493c.lib" /MACHINE:X64  /machine:x64 cmTC_b493c.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-wurzxb\\cmTC_b493c.vcxproj]
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-wurzxb\\cmTC_b493c.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ow3faw\\Debug\\cmTC_e4c6b.exe" /INCREMENTAL /ILK:"cmTC_e4c6b.dir\\Debug\\cmTC_e4c6b.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-ow3faw/Debug/cmTC_e4c6b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_spdlog-prefix/src/dep_spdlog-build/CMakeFiles/CMakeScratch/TryCompile-ow3faw/Debug/cmTC_e4c6b.lib" /MACHINE:X64  /machine:x64 cmTC_e4c6b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ow3faw\\cmTC_e4c6b.vcxproj]
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ow3faw\\cmTC_e4c6b.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
         
         빌드하지 못했습니다.
         
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-wurzxb\\cmTC_b493c.vcxproj"(기본 대상)(1)->
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ow3faw\\cmTC_e4c6b.vcxproj"(기본 대상)(1)->
         (Link 대상) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-wurzxb\\cmTC_b493c.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_spdlog-prefix\\src\\dep_spdlog-build\\CMakeFiles\\CMakeScratch\\TryCompile-ow3faw\\cmTC_e4c6b.vcxproj]
         
             경고 0개
             오류 1개
         
-        경과 시간: 00:00:00.58
+        경과 시간: 00:00:00.54
         
       exitCode: 1
 ...

@@ -7,6 +7,14 @@ set(WINDOW_NAME "Opengl example1")
 set(WINDOW_WIDTH 1280)
 set(WINDOW_HEIGHT 720)
 
+add_library(implot
+    src/implot/implot.cpp
+    src/implot/implot_items.cpp
+)
+
+target_include_directories(implot PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src/implot ${CMAKE_CURRENT_SOURCE_DIR}/imgui)
+
+
 project(${PROJECT_NAME})
 add_executable(${PROJECT_NAME} 
     src/main.cpp 
@@ -31,6 +39,9 @@ include(Dependency.cmake)
 target_include_directories(${PROJECT_NAME} PUBLIC ${DEP_INCLUDE_DIR})
 target_link_directories(${PROJECT_NAME} PUBLIC ${DEP_LIB_DIR})
 target_link_libraries(${PROJECT_NAME} PUBLIC ${DEP_LIBS})
+
+
+target_link_libraries(${PROJECT_NAME} PUBLIC implot imgui)
 
 target_compile_definitions(${PROJECT_NAME} PUBLIC
 WINDOW_NAME="${WINDOW_NAME}"

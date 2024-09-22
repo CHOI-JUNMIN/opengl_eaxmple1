@@ -213,6 +213,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{61B65D3E-2E29-3FA1-9591-875B1B201929}</Project>
       <Name>imgui</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\Public\opengl_eaxmple1\build\implot.vcxproj">
+      <Project>{C31F6100-1398-33D3-BF5E-22E23AAC4F30}</Project>
+      <Name>implot</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\Public\opengl_eaxmple1\build\opengl_example1.vcxproj">
       <Project>{83F60632-371E-3022-B1E0-3B23C974B248}</Project>
       <Name>opengl_example1</Name>

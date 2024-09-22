@@ -24,6 +24,7 @@ public:
     void UpdateHistogram() ;
     void AddGridLine(float pos, float start, float end, const glm::vec3 &color);
     void AddBoldGridLine(float pos, float start, float end, const glm::vec3 &xColor, const glm::vec3 &zColor);
+    void SetWindow(GLFWwindow *window);
 
 private:
     Context()
@@ -74,4 +75,6 @@ private:
     GLuint m_gridVAO, m_gridVBO;
     GLuint m_boldGridVAO, m_boldGridVBO;
     GLuint m_gridColorVBO, m_boldGridColorVBO;
+
+    GLFWwindow *m_window;
 };

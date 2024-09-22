@@ -5,6 +5,7 @@
 #include <iostream>
 #include <imgui_impl_glfw.h>
 #include <imgui_impl_opengl3.h>
+#include "implot.h"
 
 void OnFramebufferSizeChange(GLFWwindow *window, int width, int height)
 {
@@ -77,7 +78,7 @@ int main()
     }
 
     glfwMakeContextCurrent(window);
-
+    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
     {
         SPDLOG_ERROR("Failed to initialize OpenGL context");
@@ -87,6 +88,8 @@ int main()
     ImGui::CreateContext();
     ImGui_ImplGlfw_InitForOpenGL(window, true);
     ImGui_ImplOpenGL3_Init("#version 330 core");
+
+    ImPlot::CreateContext();
 
     auto context = Context::Create();
     if (!context)
@@ -106,6 +109,8 @@ int main()
 
     while (!glfwWindowShouldClose(window))
     {
+
+        
         // 새로운 프레임을 시작하기 위해 ImGui의 NewFrame 호출
         ImGui_ImplOpenGL3_NewFrame(); // OpenGL용 NewFrame 호출
         ImGui_ImplGlfw_NewFrame();    // GLFW용 NewFrame 호출
@@ -125,6 +130,8 @@ int main()
     }
 
     context.reset();
+
+    ImPlot::DestroyContext();
 
     ImGui_ImplOpenGL3_Shutdown();
     ImGui_ImplGlfw_Shutdown();
