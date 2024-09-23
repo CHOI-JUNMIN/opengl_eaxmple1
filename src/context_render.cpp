@@ -3,11 +3,9 @@
 #include <chrono>
 #include "implot.h"
 
-static std::vector<float> values;
-const int NUM_BINS = 10;
-static float histogram_bins[NUM_BINS] = {0.0f};
 static std::chrono::time_point<std::chrono::steady_clock> last_update_time;
 static float update_interval = 0.01f; // 0.1초마다 값 업데이트
+
 std::vector<int> visited_states;
 float x_data[] = {-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5};
 float visit_counts[11] = {0};
@@ -15,6 +13,10 @@ int episode_count = 0;
 int max_episodes = 100;
 float V[11] = {0};
 float reward = 0;
+int count_negative = 0; 
+int count_positive = 0;
+
+int total_moves = 0; // 총 이동 횟수 추적
 
 void Context::Render()
 {
@@ -32,30 +34,51 @@ void Context::Render()
             a += random_change;
             last_update_time = now; // 업데이트된 시간을 기록
 
-            for (int i= 0; i < 11; ++i)
+            if (a >= -5 && a <= 5)
             {
-                visit_counts[i] = static_cast<float>(visit_counts[i]);
+                int index = a + 5;               
+                visit_counts[index]++;           
+                visited_states.push_back(index); 
             }
 
-            int index = a + 5;
-            visit_counts[index]++;
-            visited_states.push_back(index);
+            // a가 -6 또는 6에 도달하면 에피소드 종료
+            if (a <= -6 || a >= 6)
+            {
+                // 보상 계산 ([-5, -1]일 때 -1 보상, [1, 5]일 때 1 보상)
+                reward = (a == 6) ? 1 : (a == -6) ? -1: 0;
 
-            if (a <= -5 || a >= 5){
-                reward = (a == 5) ? 1 : (a == -5) ? -1 : 0; // -5에 도달하면 -1, 5에 도달하면 1
+                // 지나간 모든 상태에 대해 보상을 할당 
                 for (int state : visited_states)
                 {
-                    V[state] += reward; // 해당 상태의 기댓값 업데이트
+                    V[state] += reward; // 해당 상태의 기댓값을 보상으로 업데이트
                 }
 
-                visited_states.clear();
-                a = 0;
-                episode_count++;
+                visited_states.clear(); // 방문한 상태 기록 초기화
+
+                if (a == -6)
+                    count_negative++;
+                else if (a == 6)
+                    count_positive++;
+                a = 0;           
+                episode_count++; 
             }
         }
-        ImGui::Text("Episode count: %d / %d", episode_count, max_episodes);
+        ImGui::Text("Episode count: %d / %d (-5: %d, +5: %d)", episode_count, max_episodes, count_negative, count_positive);
 
-        if (ImPlot::BeginPlot("Expected Return",  ImVec2(350, 250)))
+        ImGui::Separator();
+        if (ImPlot::BeginPlot("Visits graph", ImVec2(350, 250)))
+        {
+            ImPlot::SetupAxisLimits(ImAxis_X1, -5, 5);
+            ImPlot::SetupAxisLimits(ImAxis_Y1, 0, 800);
+
+            ImPlot::PushStyleColor(ImPlotCol_Line, ImVec4(1.0f, 1.0f, 1.0f, 1.0f));
+            ImPlot::PlotLine("Visits", x_data, visit_counts, 11);
+            ImPlot::PopStyleColor();
+            ImPlot::EndPlot();
+        }
+
+        ImGui::Separator();
+        if (ImPlot::BeginPlot("Expectation of Return", ImVec2(350, 250)))
         {
             ImPlot::SetupAxisLimits(ImAxis_X1, -5, 5);
             ImPlot::SetupAxisLimits(ImAxis_Y1, -1, 1);
@@ -64,28 +87,18 @@ void Context::Render()
             float v_data[11];
             for (int i = 0; i < 11; ++i)
             {
-                x_data[i] = i - 5;                                                 // x축 값 (-5 ~ 5)
+                x_data[i] = i - 5;                                                 
                 v_data[i] = (visit_counts[i] > 0) ? V[i] / visit_counts[i] : 0.0f; // 기댓값 V(s) 계산 (방문 횟수로 나눈 값)
             }
 
-            // 선형 그래프 그리기 (PlotLine 사용)
+            ImPlot::PushStyleColor(ImPlotCol_Line, ImVec4(1.0f, 1.0f, 1.0f, 1.0f));
             ImPlot::PlotLine("V(s)", x_data, v_data, 11);
-
-            ImPlot::EndPlot();
-        }
-        if (ImPlot::BeginPlot("graph", ImVec2(350, 250)))
-        {
-            ImPlot::SetupAxisLimits(ImAxis_X1, -5, 5);
-            ImPlot::SetupAxisLimits(ImAxis_Y1, 0, 500);
-
-            // 선형 그래프 그리기 (PlotLine 사용)
-            ImPlot::PlotLine("Visits", x_data, visit_counts, 11);
-
+            ImPlot::PopStyleColor();
             ImPlot::EndPlot();
         }
     }
     ImGui::End();
-
+    
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glEnable(GL_DEPTH_TEST);
     m_cameraFront =
@@ -115,19 +128,3 @@ void Context::Render()
 
     m_model->Draw(m_program.get());
 }
-
-// void Context::UpdateHistogram()
-// {
-//     std::fill(histogram_bins, histogram_bins + NUM_BINS, 0.0f);
-
-//     const float min_value = -5.0f;
-//     const float max_value = 5.0f;
-//     const float bin_size = (max_value - min_value) / NUM_BINS;
-
-//     for (float value : values)
-//     {
-//         int bin_index = static_cast<int>((value - min_value) / bin_size);
-//         bin_index = std::clamp(bin_index, 0, NUM_BINS - 1);
-//         histogram_bins[bin_index]++;
-//     }
-// }
