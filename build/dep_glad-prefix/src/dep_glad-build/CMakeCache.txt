@@ -349,18 +349,18 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python
-FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[C:/Users/최준민/AppData/Local/Programs/Python/Python312/python.exe][cfound components: Interpreter ][v3.12.3()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[C:/Users/Public/anaconda/python.exe][cfound components: Interpreter ][v3.12.4()]
 //Compiler reason failure
 _Python_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python_Development_REASON_FAILURE:INTERNAL=
 //Path to a program.
-_Python_EXECUTABLE:INTERNAL=C:/Users/최준민/AppData/Local/Programs/Python/Python312/python.exe
+_Python_EXECUTABLE:INTERNAL=C:/Users/Public/anaconda/python.exe
 //Path to a program.
 _Python_EXECUTABLE_DEBUG:INTERNAL=_Python_EXECUTABLE_DEBUG-NOTFOUND
 //Python Properties
-_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;32;<none>;cp312-win_amd64;;C:\Users\최준민\AppData\Local\Programs\Python\Python312\Lib;C:\Users\최준민\AppData\Local\Programs\Python\Python312\Lib;C:\Users\최준민\AppData\Local\Programs\Python\Python312\Lib\site-packages;C:\Users\최준민\AppData\Local\Programs\Python\Python312\Lib\site-packages
-_Python_INTERPRETER_SIGNATURE:INTERNAL=7455b2a28d7bbeb5b4b659bb7cb7af09
+_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;4;64;32;<none>;cp312-win_amd64;;C:\Users\Public\anaconda\Lib;C:\Users\Public\anaconda\Lib;C:\Users\Public\anaconda\Lib\site-packages;C:\Users\Public\anaconda\Lib\site-packages
+_Python_INTERPRETER_SIGNATURE:INTERNAL=c834b35ff3313435539e0eb5860871d7
 //NumPy reason failure
 _Python_NumPy_REASON_FAILURE:INTERNAL=
 

@@ -1,4 +1,4 @@
-set(CMAKE_RC_COMPILER "rc")
+set(CMAKE_RC_COMPILER "C:/Program Files (x86)/Microsoft Visual Studio/Common/MSDev98/Bin/RC.EXE")
 set(CMAKE_RC_COMPILER_ARG1 "")
 set(CMAKE_RC_COMPILER_LOADED 1)
 set(CMAKE_RC_SOURCE_FILE_EXTENSIONS rc;RC)

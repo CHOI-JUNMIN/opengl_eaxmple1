@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Release/opengl_example1.exe"
+			"path" : "RelWithDebInfo/opengl_example1.exe"
 		},
 		{
-			"path" : "Release/opengl_example1.pdb"
+			"path" : "RelWithDebInfo/opengl_example1.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -79,7 +79,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MD"
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob1 /DNDEBUG -std:c++17 -MD -Zi"
 				}
 			],
 			"defines" : 
@@ -146,27 +146,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 5,
-			"id" : "dep_spdlog::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 4,
 			"id" : "implot::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 5,
-			"id" : "dep_assimp::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 5,
-			"id" : "dep_stb::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 5,
-			"id" : "dep_glm::@6890427a1f51a3e7e1df"
-		},
-		{
-			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+			"id" : "imgui::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 5,
@@ -174,11 +159,26 @@
 		},
 		{
 			"backtrace" : 5,
-			"id" : "dep_glad::@6890427a1f51a3e7e1df"
+			"id" : "dep_spdlog::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 5,
-			"id" : "imgui::@6890427a1f51a3e7e1df"
+			"id" : "dep_glm::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "dep_assimp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "dep_stb::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "dep_glad::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "opengl_example1::@6890427a1f51a3e7e1df",
@@ -187,11 +187,11 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD",
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob1 /DNDEBUG -MD -Zi",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
 				"role" : "flags"
 			},
 			{
@@ -216,7 +216,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\imgui.lib",
+				"fragment" : "RelWithDebInfo\\imgui.lib",
 				"role" : "libraries"
 			},
 			{
@@ -236,12 +236,12 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "Release\\implot.lib",
+				"fragment" : "RelWithDebInfo\\implot.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "Release\\imgui.lib",
+				"fragment" : "RelWithDebInfo\\imgui.lib",
 				"role" : "libraries"
 			},
 			{

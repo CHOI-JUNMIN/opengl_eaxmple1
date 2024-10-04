@@ -2,9 +2,8 @@
 #include <imgui.h>
 #include <chrono>
 #include "implot.h"
-
-static std::chrono::time_point<std::chrono::steady_clock> last_update_time;
-static float update_interval = 0.01f; // 0.1초마다 값 업데이트
+#include <random> // <random> 헤더 파일 포함
+#include <ctime>  // 현재 시간을 시드로 설정하기 위해 사용
 
 std::vector<int> visited_states;
 float x_data[] = {-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5};
@@ -16,7 +15,9 @@ float reward = 0;
 int count_negative = 0; 
 int count_positive = 0;
 
-int total_moves = 0; // 총 이동 횟수 추적
+int total_moves = 0;
+std::default_random_engine generator(static_cast<unsigned>(time(0)));
+std::uniform_int_distribution<int> distribution(0, 1);
 
 void Context::Render()
 {
@@ -24,30 +25,25 @@ void Context::Render()
     ImGui::SetNextWindowPos(ImVec2(0, 0));  // 임의의 위치 설정
     if (ImGui::Begin("ui window"))
     {
-        auto now = std::chrono::steady_clock::now();
-        std::chrono::duration<float> elapsed = now - last_update_time;
-
-        if (episode_count < max_episodes && elapsed.count() > update_interval) // 설정한 간격보다 시간이 지나면 업데이트
+        while (episode_count < max_episodes /*&& elapsed.count() > update_interval*/) // 설정한 간격보다 시간이 지나면 업데이트
         {
-
-            int random_change = rand() % 2 == 0 ? 1 : -1;
+            int random_change = (distribution(generator) == 0) ? -1 : 1;
             a += random_change;
-            last_update_time = now; // 업데이트된 시간을 기록
 
-            if (a >= -5 && a <= 5)
+            if (a >= -5 && a <= 5) 
             {
                 int index = a + 5;               
-                visit_counts[index]++;           
-                visited_states.push_back(index); 
+                visit_counts[index]++;           // 방문 횟수 증가 (기존대로 유지)
+                visited_states.push_back(index); // 에피소드 동안 방문한 상태 기록`
             }
 
-            // a가 -6 또는 6에 도달하면 에피소드 종료
-            if (a <= -6 || a >= 6)
+            if (a <= -5 || a >= 5)
             {
-                // 보상 계산 ([-5, -1]일 때 -1 보상, [1, 5]일 때 1 보상)
-                reward = (a == 6) ? 1 : (a == -6) ? -1: 0;
+                //int index_0 = 5;     
+                //visit_counts[index_0]++; 
+                reward = (a == 5) ? 1 : (a == -5) ? -1 : 0;
 
-                // 지나간 모든 상태에 대해 보상을 할당 
+                // 지나간 모든 상태에 대해 보상을 할당 (상태별로 동일하게 반영)
                 for (int state : visited_states)
                 {
                     V[state] += reward; // 해당 상태의 기댓값을 보상으로 업데이트
@@ -55,21 +51,23 @@ void Context::Render()
 
                 visited_states.clear(); // 방문한 상태 기록 초기화
 
-                if (a == -6)
+                if (a == -5)
                     count_negative++;
-                else if (a == 6)
+                else if (a == 5)
                     count_positive++;
-                a = 0;           
-                episode_count++; 
+                a = 0;           // a를 초기화
+                episode_count++; // 에피소드 수 증가
             }
         }
+
+        // 에피소드 수 및 상태별 방문 횟수 표시
         ImGui::Text("Episode count: %d / %d (-5: %d, +5: %d)", episode_count, max_episodes, count_negative, count_positive);
 
         ImGui::Separator();
         if (ImPlot::BeginPlot("Visits graph", ImVec2(350, 250)))
         {
             ImPlot::SetupAxisLimits(ImAxis_X1, -5, 5);
-            ImPlot::SetupAxisLimits(ImAxis_Y1, 0, 800);
+            ImPlot::SetupAxisLimits(ImAxis_Y1, 0, 500);
 
             ImPlot::PushStyleColor(ImPlotCol_Line, ImVec4(1.0f, 1.0f, 1.0f, 1.0f));
             ImPlot::PlotLine("Visits", x_data, visit_counts, 11);
@@ -83,6 +81,7 @@ void Context::Render()
             ImPlot::SetupAxisLimits(ImAxis_X1, -5, 5);
             ImPlot::SetupAxisLimits(ImAxis_Y1, -1, 1);
 
+            // 기댓값 계산
             float x_data[11];
             float v_data[11];
             for (int i = 0; i < 11; ++i)
@@ -90,7 +89,6 @@ void Context::Render()
                 x_data[i] = i - 5;                                                 
                 v_data[i] = (visit_counts[i] > 0) ? V[i] / visit_counts[i] : 0.0f; // 기댓값 V(s) 계산 (방문 횟수로 나눈 값)
             }
-
             ImPlot::PushStyleColor(ImPlotCol_Line, ImVec4(1.0f, 1.0f, 1.0f, 1.0f));
             ImPlot::PlotLine("V(s)", x_data, v_data, 11);
             ImPlot::PopStyleColor();
@@ -98,7 +96,7 @@ void Context::Render()
         }
     }
     ImGui::End();
-    
+
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glEnable(GL_DEPTH_TEST);
     m_cameraFront =

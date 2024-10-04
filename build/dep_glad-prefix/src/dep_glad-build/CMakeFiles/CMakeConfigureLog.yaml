@@ -24,7 +24,7 @@ events:
       The output was:
       0
       msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-      빌드 시작: 2024-09-22 오후 2:08:27
+      빌드 시작: 2024-10-04 오후 5:23:38
       
       1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_glad-prefix\\src\\dep_glad-build\\CMakeFiles\\3.30.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:00.75
+      경과 시간: 00:00:00.68
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -72,48 +72,48 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/CMakeScratch/TryCompile-ht8miz"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/CMakeScratch/TryCompile-ht8miz"
+      source: "C:/Users/Public/opengl_eaxmple1/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/CMakeScratch/TryCompile-r6mjb8"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/CMakeScratch/TryCompile-r6mjb8"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/CMakeScratch/TryCompile-ht8miz'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/CMakeScratch/TryCompile-r6mjb8'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_afb77.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_749da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-22 오후 2:08:28
+        빌드 시작: 2024-10-04 오후 5:23:39
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_glad-prefix\\src\\dep_glad-build\\CMakeFiles\\CMakeScratch\\TryCompile-ht8miz\\cmTC_afb77.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_glad-prefix\\src\\dep_glad-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6mjb8\\cmTC_749da.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_afb77.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_749da.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_glad-prefix\\src\\dep_glad-build\\CMakeFiles\\CMakeScratch\\TryCompile-ht8miz\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_afb77.dir\\Debug\\cmTC_afb77.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_glad-prefix\\src\\dep_glad-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6mjb8\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_749da.dir\\Debug\\cmTC_749da.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_afb77.dir\\Debug\\cmTC_afb77.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_afb77.dir\\Debug\\cmTC_afb77.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_749da.dir\\Debug\\cmTC_749da.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_749da.dir\\Debug\\cmTC_749da.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_afb77.dir\\Debug\\\\" /Fd"cmTC_afb77.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_749da.dir\\Debug\\\\" /Fd"cmTC_749da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_afb77.dir\\Debug\\\\" /Fd"cmTC_afb77.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_749da.dir\\Debug\\\\" /Fd"cmTC_749da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_glad-prefix\\src\\dep_glad-build\\CMakeFiles\\CMakeScratch\\TryCompile-ht8miz\\Debug\\cmTC_afb77.exe" /INCREMENTAL /ILK:"cmTC_afb77.dir\\Debug\\cmTC_afb77.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/CMakeScratch/TryCompile-ht8miz/Debug/cmTC_afb77.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/CMakeScratch/TryCompile-ht8miz/Debug/cmTC_afb77.lib" /MACHINE:X64  /machine:x64 cmTC_afb77.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_afb77.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_glad-prefix\\src\\dep_glad-build\\CMakeFiles\\CMakeScratch\\TryCompile-ht8miz\\Debug\\cmTC_afb77.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_glad-prefix\\src\\dep_glad-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6mjb8\\Debug\\cmTC_749da.exe" /INCREMENTAL /ILK:"cmTC_749da.dir\\Debug\\cmTC_749da.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/CMakeScratch/TryCompile-r6mjb8/Debug/cmTC_749da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_glad-prefix/src/dep_glad-build/CMakeFiles/CMakeScratch/TryCompile-r6mjb8/Debug/cmTC_749da.lib" /MACHINE:X64  /machine:x64 cmTC_749da.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_749da.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_glad-prefix\\src\\dep_glad-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6mjb8\\Debug\\cmTC_749da.exe
         FinalizeBuildStatus:
-          "cmTC_afb77.dir\\Debug\\cmTC_afb77.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_afb77.dir\\Debug\\cmTC_afb77.tlog\\cmTC_afb77.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_glad-prefix\\src\\dep_glad-build\\CMakeFiles\\CMakeScratch\\TryCompile-ht8miz\\cmTC_afb77.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_749da.dir\\Debug\\cmTC_749da.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_749da.dir\\Debug\\cmTC_749da.tlog\\cmTC_749da.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_glad-prefix\\src\\dep_glad-build\\CMakeFiles\\CMakeScratch\\TryCompile-r6mjb8\\cmTC_749da.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.67
+        경과 시간: 00:00:00.66
         
       exitCode: 0
   -

@@ -60,7 +60,7 @@
 			"compiler" : 
 			{
 				"implicit" : {},
-				"path" : "rc"
+				"path" : "C:/Program Files (x86)/Microsoft Visual Studio/Common/MSDev98/Bin/RC.EXE"
 			},
 			"language" : "RC",
 			"sourceFileExtensions" : 

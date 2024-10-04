@@ -24,7 +24,7 @@ events:
       The output was:
       0
       msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-      빌드 시작: 2024-09-22 오후 2:08:44
+      빌드 시작: 2024-10-04 오후 5:23:55
       
       1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\3.30.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:00.55
+      경과 시간: 00:00:00.58
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-      빌드 시작: 2024-09-22 오후 2:08:45
+      빌드 시작: 2024-10-04 오후 5:23:56
       
       1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\3.30.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:00.54
+      경과 시간: 00:00:00.60
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,48 +127,48 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-2rookw"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-2rookw"
+      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-vut805"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-vut805"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-2rookw'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-vut805'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_42db6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0f556.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-22 오후 2:08:46
+        빌드 시작: 2024-10-04 오후 5:23:57
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-2rookw\\cmTC_42db6.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-vut805\\cmTC_0f556.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_42db6.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_0f556.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-2rookw\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_42db6.dir\\Debug\\cmTC_42db6.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-vut805\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_0f556.dir\\Debug\\cmTC_0f556.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_42db6.dir\\Debug\\cmTC_42db6.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_42db6.dir\\Debug\\cmTC_42db6.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_0f556.dir\\Debug\\cmTC_0f556.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_0f556.dir\\Debug\\cmTC_0f556.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42db6.dir\\Debug\\\\" /Fd"cmTC_42db6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f556.dir\\Debug\\\\" /Fd"cmTC_0f556.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42db6.dir\\Debug\\\\" /Fd"cmTC_42db6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f556.dir\\Debug\\\\" /Fd"cmTC_0f556.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-2rookw\\Debug\\cmTC_42db6.exe" /INCREMENTAL /ILK:"cmTC_42db6.dir\\Debug\\cmTC_42db6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-2rookw/Debug/cmTC_42db6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-2rookw/Debug/cmTC_42db6.lib" /MACHINE:X64  /machine:x64 cmTC_42db6.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_42db6.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-2rookw\\Debug\\cmTC_42db6.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-vut805\\Debug\\cmTC_0f556.exe" /INCREMENTAL /ILK:"cmTC_0f556.dir\\Debug\\cmTC_0f556.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-vut805/Debug/cmTC_0f556.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-vut805/Debug/cmTC_0f556.lib" /MACHINE:X64  /machine:x64 cmTC_0f556.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_0f556.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-vut805\\Debug\\cmTC_0f556.exe
         FinalizeBuildStatus:
-          "cmTC_42db6.dir\\Debug\\cmTC_42db6.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_42db6.dir\\Debug\\cmTC_42db6.tlog\\cmTC_42db6.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-2rookw\\cmTC_42db6.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_0f556.dir\\Debug\\cmTC_0f556.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_0f556.dir\\Debug\\cmTC_0f556.tlog\\cmTC_0f556.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-vut805\\cmTC_0f556.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.52
+        경과 시간: 00:00:00.56
         
       exitCode: 0
   -
@@ -208,8 +208,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-bxp15h"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-bxp15h"
+      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-3l9i1e"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-3l9i1e"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -217,40 +217,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-bxp15h'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-3l9i1e'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4fee9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d6e30.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-22 오후 2:08:47
+        빌드 시작: 2024-10-04 오후 5:23:58
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-bxp15h\\cmTC_4fee9.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-3l9i1e\\cmTC_d6e30.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_4fee9.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_d6e30.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-bxp15h\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_4fee9.dir\\Debug\\cmTC_4fee9.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-3l9i1e\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_d6e30.dir\\Debug\\cmTC_d6e30.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_4fee9.dir\\Debug\\cmTC_4fee9.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_4fee9.dir\\Debug\\cmTC_4fee9.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_d6e30.dir\\Debug\\cmTC_d6e30.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_d6e30.dir\\Debug\\cmTC_d6e30.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4fee9.dir\\Debug\\\\" /Fd"cmTC_4fee9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d6e30.dir\\Debug\\\\" /Fd"cmTC_d6e30.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4fee9.dir\\Debug\\\\" /Fd"cmTC_4fee9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d6e30.dir\\Debug\\\\" /Fd"cmTC_d6e30.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-bxp15h\\Debug\\cmTC_4fee9.exe" /INCREMENTAL /ILK:"cmTC_4fee9.dir\\Debug\\cmTC_4fee9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-bxp15h/Debug/cmTC_4fee9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-bxp15h/Debug/cmTC_4fee9.lib" /MACHINE:X64  /machine:x64 cmTC_4fee9.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_4fee9.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-bxp15h\\Debug\\cmTC_4fee9.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-3l9i1e\\Debug\\cmTC_d6e30.exe" /INCREMENTAL /ILK:"cmTC_d6e30.dir\\Debug\\cmTC_d6e30.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-3l9i1e/Debug/cmTC_d6e30.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-3l9i1e/Debug/cmTC_d6e30.lib" /MACHINE:X64  /machine:x64 cmTC_d6e30.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d6e30.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-3l9i1e\\Debug\\cmTC_d6e30.exe
         FinalizeBuildStatus:
-          "cmTC_4fee9.dir\\Debug\\cmTC_4fee9.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_4fee9.dir\\Debug\\cmTC_4fee9.tlog\\cmTC_4fee9.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-bxp15h\\cmTC_4fee9.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_d6e30.dir\\Debug\\cmTC_d6e30.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_d6e30.dir\\Debug\\cmTC_d6e30.tlog\\cmTC_d6e30.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-3l9i1e\\cmTC_d6e30.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.54
+        경과 시간: 00:00:00.59
         
       exitCode: 0
   -
@@ -289,8 +289,8 @@ events:
     checks:
       - "Looking for sys/types.h"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-ue994k"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-ue994k"
+      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-0511m9"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-0511m9"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_MODULE_PATH: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp/cmake-modules"
@@ -298,40 +298,40 @@ events:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-ue994k'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-0511m9'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_41146.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1de2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-22 오후 2:08:48
+        빌드 시작: 2024-10-04 오후 5:23:59
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-ue994k\\cmTC_41146.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0511m9\\cmTC_1de2e.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_41146.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_1de2e.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-ue994k\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_41146.dir\\Debug\\cmTC_41146.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0511m9\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_1de2e.dir\\Debug\\cmTC_1de2e.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_41146.dir\\Debug\\cmTC_41146.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_41146.dir\\Debug\\cmTC_41146.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_1de2e.dir\\Debug\\cmTC_1de2e.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_1de2e.dir\\Debug\\cmTC_1de2e.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41146.dir\\Debug\\\\" /Fd"cmTC_41146.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-ue994k\\CheckIncludeFile.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1de2e.dir\\Debug\\\\" /Fd"cmTC_1de2e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0511m9\\CheckIncludeFile.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41146.dir\\Debug\\\\" /Fd"cmTC_41146.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-ue994k\\CheckIncludeFile.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1de2e.dir\\Debug\\\\" /Fd"cmTC_1de2e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0511m9\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-ue994k\\Debug\\cmTC_41146.exe" /INCREMENTAL /ILK:"cmTC_41146.dir\\Debug\\cmTC_41146.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-ue994k/Debug/cmTC_41146.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-ue994k/Debug/cmTC_41146.lib" /MACHINE:X64  /machine:x64 cmTC_41146.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_41146.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-ue994k\\Debug\\cmTC_41146.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0511m9\\Debug\\cmTC_1de2e.exe" /INCREMENTAL /ILK:"cmTC_1de2e.dir\\Debug\\cmTC_1de2e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-0511m9/Debug/cmTC_1de2e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-0511m9/Debug/cmTC_1de2e.lib" /MACHINE:X64  /machine:x64 cmTC_1de2e.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_1de2e.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0511m9\\Debug\\cmTC_1de2e.exe
         FinalizeBuildStatus:
-          "cmTC_41146.dir\\Debug\\cmTC_41146.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_41146.dir\\Debug\\cmTC_41146.tlog\\cmTC_41146.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-ue994k\\cmTC_41146.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_1de2e.dir\\Debug\\cmTC_1de2e.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_1de2e.dir\\Debug\\cmTC_1de2e.tlog\\cmTC_1de2e.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-0511m9\\cmTC_1de2e.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.53
+        경과 시간: 00:00:00.55
         
       exitCode: 0
   -
@@ -342,8 +342,8 @@ events:
     checks:
       - "Looking for stdint.h"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-niyuh2"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-niyuh2"
+      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-uhtt71"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-uhtt71"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_MODULE_PATH: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp/cmake-modules"
@@ -351,40 +351,40 @@ events:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-niyuh2'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-uhtt71'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_83089.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_87463.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-22 오후 2:08:49
+        빌드 시작: 2024-10-04 오후 5:24:00
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-niyuh2\\cmTC_83089.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-uhtt71\\cmTC_87463.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_83089.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_87463.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-niyuh2\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_83089.dir\\Debug\\cmTC_83089.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-uhtt71\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_87463.dir\\Debug\\cmTC_87463.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_83089.dir\\Debug\\cmTC_83089.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_83089.dir\\Debug\\cmTC_83089.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_87463.dir\\Debug\\cmTC_87463.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_87463.dir\\Debug\\cmTC_87463.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_83089.dir\\Debug\\\\" /Fd"cmTC_83089.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-niyuh2\\CheckIncludeFile.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87463.dir\\Debug\\\\" /Fd"cmTC_87463.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-uhtt71\\CheckIncludeFile.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_83089.dir\\Debug\\\\" /Fd"cmTC_83089.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-niyuh2\\CheckIncludeFile.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87463.dir\\Debug\\\\" /Fd"cmTC_87463.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-uhtt71\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-niyuh2\\Debug\\cmTC_83089.exe" /INCREMENTAL /ILK:"cmTC_83089.dir\\Debug\\cmTC_83089.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-niyuh2/Debug/cmTC_83089.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-niyuh2/Debug/cmTC_83089.lib" /MACHINE:X64  /machine:x64 cmTC_83089.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_83089.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-niyuh2\\Debug\\cmTC_83089.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-uhtt71\\Debug\\cmTC_87463.exe" /INCREMENTAL /ILK:"cmTC_87463.dir\\Debug\\cmTC_87463.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-uhtt71/Debug/cmTC_87463.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-uhtt71/Debug/cmTC_87463.lib" /MACHINE:X64  /machine:x64 cmTC_87463.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_87463.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-uhtt71\\Debug\\cmTC_87463.exe
         FinalizeBuildStatus:
-          "cmTC_83089.dir\\Debug\\cmTC_83089.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_83089.dir\\Debug\\cmTC_83089.tlog\\cmTC_83089.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-niyuh2\\cmTC_83089.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_87463.dir\\Debug\\cmTC_87463.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_87463.dir\\Debug\\cmTC_87463.tlog\\cmTC_87463.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-uhtt71\\cmTC_87463.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.53
+        경과 시간: 00:00:00.57
         
       exitCode: 0
   -
@@ -395,8 +395,8 @@ events:
     checks:
       - "Looking for stddef.h"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-we75aw"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-we75aw"
+      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-goyewa"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-goyewa"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_MODULE_PATH: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp/cmake-modules"
@@ -404,40 +404,40 @@ events:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-we75aw'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-goyewa'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_04718.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0f97a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-22 오후 2:08:49
+        빌드 시작: 2024-10-04 오후 5:24:01
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-we75aw\\cmTC_04718.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-goyewa\\cmTC_0f97a.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_04718.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_0f97a.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-we75aw\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_04718.dir\\Debug\\cmTC_04718.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-goyewa\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_0f97a.dir\\Debug\\cmTC_0f97a.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_04718.dir\\Debug\\cmTC_04718.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_04718.dir\\Debug\\cmTC_04718.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_0f97a.dir\\Debug\\cmTC_0f97a.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_0f97a.dir\\Debug\\cmTC_0f97a.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04718.dir\\Debug\\\\" /Fd"cmTC_04718.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-we75aw\\CheckIncludeFile.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f97a.dir\\Debug\\\\" /Fd"cmTC_0f97a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-goyewa\\CheckIncludeFile.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04718.dir\\Debug\\\\" /Fd"cmTC_04718.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-we75aw\\CheckIncludeFile.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f97a.dir\\Debug\\\\" /Fd"cmTC_0f97a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-goyewa\\CheckIncludeFile.c"
           CheckIncludeFile.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-we75aw\\Debug\\cmTC_04718.exe" /INCREMENTAL /ILK:"cmTC_04718.dir\\Debug\\cmTC_04718.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-we75aw/Debug/cmTC_04718.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-we75aw/Debug/cmTC_04718.lib" /MACHINE:X64  /machine:x64 cmTC_04718.dir\\Debug\\CheckIncludeFile.obj
-          cmTC_04718.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-we75aw\\Debug\\cmTC_04718.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-goyewa\\Debug\\cmTC_0f97a.exe" /INCREMENTAL /ILK:"cmTC_0f97a.dir\\Debug\\cmTC_0f97a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-goyewa/Debug/cmTC_0f97a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-goyewa/Debug/cmTC_0f97a.lib" /MACHINE:X64  /machine:x64 cmTC_0f97a.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_0f97a.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-goyewa\\Debug\\cmTC_0f97a.exe
         FinalizeBuildStatus:
-          "cmTC_04718.dir\\Debug\\cmTC_04718.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_04718.dir\\Debug\\cmTC_04718.tlog\\cmTC_04718.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-we75aw\\cmTC_04718.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_0f97a.dir\\Debug\\cmTC_0f97a.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_0f97a.dir\\Debug\\cmTC_0f97a.tlog\\cmTC_0f97a.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-goyewa\\cmTC_0f97a.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.53
+        경과 시간: 00:00:00.56
         
       exitCode: 0
   -
@@ -449,8 +449,8 @@ events:
     checks:
       - "Check size of off64_t"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-zelhn7"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-zelhn7"
+      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-di2cxg"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-di2cxg"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_MODULE_PATH: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp/cmake-modules"
@@ -458,48 +458,48 @@ events:
       variable: "HAVE_OFF64_T"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-zelhn7'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-di2cxg'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b0463.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b0e09.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-22 오후 2:08:50
+        빌드 시작: 2024-10-04 오후 5:24:02
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\cmTC_b0463.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\cmTC_b0e09.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_b0463.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_b0e09.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_b0463.dir\\Debug\\cmTC_b0463.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_b0e09.dir\\Debug\\cmTC_b0e09.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_b0463.dir\\Debug\\cmTC_b0463.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_b0463.dir\\Debug\\cmTC_b0463.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_b0e09.dir\\Debug\\cmTC_b0e09.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_b0e09.dir\\Debug\\cmTC_b0e09.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0463.dir\\Debug\\\\" /Fd"cmTC_b0463.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\OFF64_T.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0e09.dir\\Debug\\\\" /Fd"cmTC_b0e09.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\OFF64_T.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0463.dir\\Debug\\\\" /Fd"cmTC_b0463.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\OFF64_T.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0e09.dir\\Debug\\\\" /Fd"cmTC_b0e09.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\OFF64_T.c"
           OFF64_T.c
-        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\OFF64_T.c(29,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\cmTC_b0463.vcxproj]
-        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\OFF64_T.c(30,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\cmTC_b0463.vcxproj]
-        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\OFF64_T.c(31,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\cmTC_b0463.vcxproj]
-        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\OFF64_T.c(32,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\cmTC_b0463.vcxproj]
-        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\OFF64_T.c(33,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\cmTC_b0463.vcxproj]
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\cmTC_b0463.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\OFF64_T.c(29,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\cmTC_b0e09.vcxproj]
+        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\OFF64_T.c(30,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\cmTC_b0e09.vcxproj]
+        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\OFF64_T.c(31,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\cmTC_b0e09.vcxproj]
+        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\OFF64_T.c(32,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\cmTC_b0e09.vcxproj]
+        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\OFF64_T.c(33,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\cmTC_b0e09.vcxproj]
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\cmTC_b0e09.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
         
         빌드하지 못했습니다.
         
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\cmTC_b0463.vcxproj"(기본 대상)(1)->
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\cmTC_b0e09.vcxproj"(기본 대상)(1)->
         (ClCompile 대상) -> 
-          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\OFF64_T.c(29,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\cmTC_b0463.vcxproj]
-          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\OFF64_T.c(30,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\cmTC_b0463.vcxproj]
-          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\OFF64_T.c(31,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\cmTC_b0463.vcxproj]
-          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\OFF64_T.c(32,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\cmTC_b0463.vcxproj]
-          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\OFF64_T.c(33,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-zelhn7\\cmTC_b0463.vcxproj]
+          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\OFF64_T.c(29,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\cmTC_b0e09.vcxproj]
+          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\OFF64_T.c(30,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\cmTC_b0e09.vcxproj]
+          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\OFF64_T.c(31,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\cmTC_b0e09.vcxproj]
+          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\OFF64_T.c(32,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\cmTC_b0e09.vcxproj]
+          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\OFF64_T.c(33,12): error C2065: 'off64_t': 선언되지 않은 식별자입니다. [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-di2cxg\\cmTC_b0e09.vcxproj]
         
             경고 0개
             오류 5개
         
-        경과 시간: 00:00:00.33
+        경과 시간: 00:00:00.34
         
       exitCode: 1
   -
@@ -510,8 +510,8 @@ events:
     checks:
       - "Looking for fseeko"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-xn9wzz"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-xn9wzz"
+      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-pudhef"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-pudhef"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_MODULE_PATH: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp/cmake-modules"
@@ -519,44 +519,44 @@ events:
       variable: "HAVE_FSEEKO"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-xn9wzz'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-pudhef'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_345f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_13f9c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-22 오후 2:08:51
+        빌드 시작: 2024-10-04 오후 5:24:02
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xn9wzz\\cmTC_345f8.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-pudhef\\cmTC_13f9c.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_345f8.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_13f9c.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xn9wzz\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_345f8.dir\\Debug\\cmTC_345f8.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-pudhef\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_13f9c.dir\\Debug\\cmTC_13f9c.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_345f8.dir\\Debug\\cmTC_345f8.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_345f8.dir\\Debug\\cmTC_345f8.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_13f9c.dir\\Debug\\cmTC_13f9c.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_13f9c.dir\\Debug\\cmTC_13f9c.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_345f8.dir\\Debug\\\\" /Fd"cmTC_345f8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xn9wzz\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13f9c.dir\\Debug\\\\" /Fd"cmTC_13f9c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-pudhef\\CheckFunctionExists.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_345f8.dir\\Debug\\\\" /Fd"cmTC_345f8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xn9wzz\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13f9c.dir\\Debug\\\\" /Fd"cmTC_13f9c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-pudhef\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xn9wzz\\Debug\\cmTC_345f8.exe" /INCREMENTAL /ILK:"cmTC_345f8.dir\\Debug\\cmTC_345f8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-xn9wzz/Debug/cmTC_345f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-xn9wzz/Debug/cmTC_345f8.lib" /MACHINE:X64  /machine:x64 cmTC_345f8.dir\\Debug\\CheckFunctionExists.obj
-        CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xn9wzz\\cmTC_345f8.vcxproj]
-        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xn9wzz\\Debug\\cmTC_345f8.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xn9wzz\\cmTC_345f8.vcxproj]
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xn9wzz\\cmTC_345f8.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-pudhef\\Debug\\cmTC_13f9c.exe" /INCREMENTAL /ILK:"cmTC_13f9c.dir\\Debug\\cmTC_13f9c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-pudhef/Debug/cmTC_13f9c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-pudhef/Debug/cmTC_13f9c.lib" /MACHINE:X64  /machine:x64 cmTC_13f9c.dir\\Debug\\CheckFunctionExists.obj
+        CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-pudhef\\cmTC_13f9c.vcxproj]
+        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-pudhef\\Debug\\cmTC_13f9c.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-pudhef\\cmTC_13f9c.vcxproj]
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-pudhef\\cmTC_13f9c.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
         
         빌드하지 못했습니다.
         
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xn9wzz\\cmTC_345f8.vcxproj"(기본 대상)(1)->
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-pudhef\\cmTC_13f9c.vcxproj"(기본 대상)(1)->
         (Link 대상) -> 
-          CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xn9wzz\\cmTC_345f8.vcxproj]
-          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xn9wzz\\Debug\\cmTC_345f8.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-xn9wzz\\cmTC_345f8.vcxproj]
+          CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-pudhef\\cmTC_13f9c.vcxproj]
+          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-pudhef\\Debug\\cmTC_13f9c.exe : fatal error LNK1120: 1 unresolved externals [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-pudhef\\cmTC_13f9c.vcxproj]
         
             경고 0개
             오류 2개
         
-        경과 시간: 00:00:00.47
+        경과 시간: 00:00:00.48
         
       exitCode: 1
   -
@@ -567,8 +567,8 @@ events:
     checks:
       - "Looking for unistd.h"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-s3n9r0"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-s3n9r0"
+      source: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-iw7tzc"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-iw7tzc"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_MODULE_PATH: "C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp/cmake-modules"
@@ -576,40 +576,40 @@ events:
       variable: "Z_HAVE_UNISTD_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-s3n9r0'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/dep_assimp-prefix/src/dep_assimp-build/CMakeFiles/CMakeScratch/TryCompile-iw7tzc'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1cc17.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_260b9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-22 오후 2:08:51
+        빌드 시작: 2024-10-04 오후 5:24:03
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-s3n9r0\\cmTC_1cc17.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw7tzc\\cmTC_260b9.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_1cc17.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_260b9.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-s3n9r0\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_1cc17.dir\\Debug\\cmTC_1cc17.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw7tzc\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_260b9.dir\\Debug\\cmTC_260b9.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_1cc17.dir\\Debug\\cmTC_1cc17.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_1cc17.dir\\Debug\\cmTC_1cc17.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_260b9.dir\\Debug\\cmTC_260b9.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_260b9.dir\\Debug\\cmTC_260b9.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1cc17.dir\\Debug\\\\" /Fd"cmTC_1cc17.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-s3n9r0\\CheckIncludeFile.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_260b9.dir\\Debug\\\\" /Fd"cmTC_260b9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw7tzc\\CheckIncludeFile.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1cc17.dir\\Debug\\\\" /Fd"cmTC_1cc17.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-s3n9r0\\CheckIncludeFile.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_260b9.dir\\Debug\\\\" /Fd"cmTC_260b9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw7tzc\\CheckIncludeFile.c"
           CheckIncludeFile.c
-        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-s3n9r0\\CheckIncludeFile.c(1,10): error C1083: 포함 파일을 열 수 없습니다. 'unistd.h': No such file or directory [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-s3n9r0\\cmTC_1cc17.vcxproj]
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-s3n9r0\\cmTC_1cc17.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
+        C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw7tzc\\CheckIncludeFile.c(1,10): error C1083: 포함 파일을 열 수 없습니다. 'unistd.h': No such file or directory [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw7tzc\\cmTC_260b9.vcxproj]
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw7tzc\\cmTC_260b9.vcxproj" 프로젝트를 빌드했습니다(기본 대상). - 실패
         
         빌드하지 못했습니다.
         
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-s3n9r0\\cmTC_1cc17.vcxproj"(기본 대상)(1)->
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw7tzc\\cmTC_260b9.vcxproj"(기본 대상)(1)->
         (ClCompile 대상) -> 
-          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-s3n9r0\\CheckIncludeFile.c(1,10): error C1083: 포함 파일을 열 수 없습니다. 'unistd.h': No such file or directory [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-s3n9r0\\cmTC_1cc17.vcxproj]
+          C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw7tzc\\CheckIncludeFile.c(1,10): error C1083: 포함 파일을 열 수 없습니다. 'unistd.h': No such file or directory [C:\\Users\\Public\\opengl_eaxmple1\\build\\dep_assimp-prefix\\src\\dep_assimp-build\\CMakeFiles\\CMakeScratch\\TryCompile-iw7tzc\\cmTC_260b9.vcxproj]
         
             경고 0개
             오류 1개
         
-        경과 시간: 00:00:00.33
+        경과 시간: 00:00:00.34
         
       exitCode: 1
 ...

@@ -7,6 +7,9 @@
 #include <imgui_impl_opengl3.h>
 #include "implot.h"
 
+int windowPosX = 100;
+int windowPosY = 100;
+
 void OnFramebufferSizeChange(GLFWwindow *window, int width, int height)
 {
     auto context = (Context *)glfwGetWindowUserPointer(window);
@@ -98,7 +101,8 @@ int main()
         glfwTerminate();
         return -1;
     }
-
+    glfwSetWindowPos(window, windowPosX, windowPosY);
+    
     glfwSetWindowUserPointer(window, context.get());
     glfwSetFramebufferSizeCallback(window, OnFramebufferSizeChange);
     glfwSetKeyCallback(window, OnKeyEvent);

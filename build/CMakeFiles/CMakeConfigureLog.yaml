@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:10 (project)"
+      - "CMakeLists.txt:18 (project)"
     message: |
       The system is: Windows - 10.0.19045 - AMD64
   -
@@ -14,7 +14,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:10 (project)"
+      - "CMakeLists.txt:18 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler:  
@@ -24,7 +24,7 @@ events:
       The output was:
       0
       msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-      빌드 시작: 2024-09-22 오후 2:04:34
+      빌드 시작: 2024-10-04 오후 5:23:29
       
       1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\3.30.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:00.53
+      경과 시간: 00:00:00.60
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -69,7 +69,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:10 (project)"
+      - "CMakeLists.txt:18 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-      빌드 시작: 2024-09-22 오후 2:04:35
+      빌드 시작: 2024-10-04 오후 5:23:30
       
       1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\3.30.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -123,12 +123,12 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:10 (project)"
+      - "CMakeLists.txt:18 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-8rluex"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-8rluex"
+      source: "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-ld31h5"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-ld31h5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-8rluex'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-ld31h5'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b9141.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d5c38.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-22 오후 2:04:35
+        빌드 시작: 2024-10-04 오후 5:23:31
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rluex\\cmTC_b9141.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ld31h5\\cmTC_d5c38.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_b9141.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_d5c38.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rluex\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_b9141.dir\\Debug\\cmTC_b9141.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ld31h5\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_d5c38.dir\\Debug\\cmTC_d5c38.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_b9141.dir\\Debug\\cmTC_b9141.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_b9141.dir\\Debug\\cmTC_b9141.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_d5c38.dir\\Debug\\cmTC_d5c38.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_d5c38.dir\\Debug\\cmTC_d5c38.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9141.dir\\Debug\\\\" /Fd"cmTC_b9141.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5c38.dir\\Debug\\\\" /Fd"cmTC_d5c38.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9141.dir\\Debug\\\\" /Fd"cmTC_b9141.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5c38.dir\\Debug\\\\" /Fd"cmTC_d5c38.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rluex\\Debug\\cmTC_b9141.exe" /INCREMENTAL /ILK:"cmTC_b9141.dir\\Debug\\cmTC_b9141.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-8rluex/Debug/cmTC_b9141.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-8rluex/Debug/cmTC_b9141.lib" /MACHINE:X64  /machine:x64 cmTC_b9141.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_b9141.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rluex\\Debug\\cmTC_b9141.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ld31h5\\Debug\\cmTC_d5c38.exe" /INCREMENTAL /ILK:"cmTC_d5c38.dir\\Debug\\cmTC_d5c38.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-ld31h5/Debug/cmTC_d5c38.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-ld31h5/Debug/cmTC_d5c38.lib" /MACHINE:X64  /machine:x64 cmTC_d5c38.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_d5c38.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ld31h5\\Debug\\cmTC_d5c38.exe
         FinalizeBuildStatus:
-          "cmTC_b9141.dir\\Debug\\cmTC_b9141.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_b9141.dir\\Debug\\cmTC_b9141.tlog\\cmTC_b9141.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rluex\\cmTC_b9141.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_d5c38.dir\\Debug\\cmTC_d5c38.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_d5c38.dir\\Debug\\cmTC_d5c38.tlog\\cmTC_d5c38.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ld31h5\\cmTC_d5c38.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.52
+        경과 시간: 00:00:00.51
         
       exitCode: 0
   -
@@ -178,7 +178,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:10 (project)"
+      - "CMakeLists.txt:18 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -196,7 +196,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:10 (project)"
+      - "CMakeLists.txt:18 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.40.33812.0
@@ -206,12 +206,12 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:10 (project)"
+      - "CMakeLists.txt:18 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-ovk9u2"
-      binary: "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-ovk9u2"
+      source: "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-l99n79"
+      binary: "C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-l99n79"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
@@ -221,34 +221,34 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-ovk9u2'
+        Change Dir: 'C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-l99n79'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3b928.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bd41d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         msbuild 버전 17.10.4+10fbfbf2e(.NET Framework용)
-        빌드 시작: 2024-09-22 오후 2:04:36
+        빌드 시작: 2024-10-04 오후 5:23:31
         
-        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ovk9u2\\cmTC_3b928.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l99n79\\cmTC_bd41d.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_3b928.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_bd41d.dir\\Debug\\" 디렉터리를 만들고 있습니다.
           구조적 출력을 사용할 수 있습니다. 컴파일러 진단의 서식은 오류 계층 구조를 반영합니다. 자세한 내용은 https://aka.ms/cpp/structured-output을 참조하세요.
-          "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ovk9u2\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_3b928.dir\\Debug\\cmTC_3b928.tlog\\" 디렉터리를 만들고 있습니다.
+          "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l99n79\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_bd41d.dir\\Debug\\cmTC_bd41d.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_3b928.dir\\Debug\\cmTC_3b928.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-          "cmTC_3b928.dir\\Debug\\cmTC_3b928.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_bd41d.dir\\Debug\\cmTC_bd41d.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "cmTC_bd41d.dir\\Debug\\cmTC_bd41d.tlog\\unsuccessfulbuild"에 연결(touching)하고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_3b928.dir\\Debug\\\\" /Fd"cmTC_3b928.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_bd41d.dir\\Debug\\\\" /Fd"cmTC_bd41d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.40.33812(x64)
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_3b928.dir\\Debug\\\\" /Fd"cmTC_3b928.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_bd41d.dir\\Debug\\\\" /Fd"cmTC_bd41d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ovk9u2\\Debug\\cmTC_3b928.exe" /INCREMENTAL /ILK:"cmTC_3b928.dir\\Debug\\cmTC_3b928.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-ovk9u2/Debug/cmTC_3b928.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-ovk9u2/Debug/cmTC_3b928.lib" /MACHINE:X64  /machine:x64 cmTC_3b928.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_3b928.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ovk9u2\\Debug\\cmTC_3b928.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l99n79\\Debug\\cmTC_bd41d.exe" /INCREMENTAL /ILK:"cmTC_bd41d.dir\\Debug\\cmTC_bd41d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-l99n79/Debug/cmTC_bd41d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Public/opengl_eaxmple1/build/CMakeFiles/CMakeScratch/TryCompile-l99n79/Debug/cmTC_bd41d.lib" /MACHINE:X64  /machine:x64 cmTC_bd41d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_bd41d.vcxproj -> C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l99n79\\Debug\\cmTC_bd41d.exe
         FinalizeBuildStatus:
-          "cmTC_3b928.dir\\Debug\\cmTC_3b928.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_3b928.dir\\Debug\\cmTC_3b928.tlog\\cmTC_3b928.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ovk9u2\\cmTC_3b928.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_bd41d.dir\\Debug\\cmTC_bd41d.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_bd41d.dir\\Debug\\cmTC_bd41d.tlog\\cmTC_bd41d.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\Users\\Public\\opengl_eaxmple1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l99n79\\cmTC_bd41d.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
@@ -262,7 +262,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:10 (project)"
+      - "CMakeLists.txt:18 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -280,7 +280,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:10 (project)"
+      - "CMakeLists.txt:18 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.40.33812.0

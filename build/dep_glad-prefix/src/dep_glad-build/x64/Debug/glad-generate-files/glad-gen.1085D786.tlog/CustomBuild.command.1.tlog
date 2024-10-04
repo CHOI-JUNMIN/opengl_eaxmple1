@@ -4,7 +4,7 @@ cd C:\Users\Public\opengl_eaxmple1\build\dep_glad-prefix\src\dep_glad
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-C:\Users\최준민\AppData\Local\Programs\Python\Python312\python.exe -m glad --profile=compatibility --out-path=C:/Users/Public/opengl_eaxmple1/build/dep_glad-prefix/src/dep_glad-build --api= --generator=c --extensions= --spec=gl
+C:\Users\Public\anaconda\python.exe -m glad --profile=compatibility --out-path=C:/Users/Public/opengl_eaxmple1/build/dep_glad-prefix/src/dep_glad-build --api= --generator=c --extensions= --spec=gl
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

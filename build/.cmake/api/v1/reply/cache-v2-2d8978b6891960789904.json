@@ -703,7 +703,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "rc"
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/Common/MSDev98/Bin/RC.EXE"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
